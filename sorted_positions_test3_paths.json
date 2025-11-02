@@ -2,2611 +2,2611 @@
     {
         "source":1,
         "target":0,
-        "best_scenery":-0.547,
-        "best_POI":0.209
+        "best_scenery":6.304,
+        "best_POI":2.884
     },
     {
         "source":2,
         "target":0,
-        "best_scenery":-1.9838,
-        "best_POI":-0.004
+        "best_scenery":6.286,
+        "best_POI":3.375
     },
     {
         "source":2,
         "target":1,
-        "best_scenery":-2.0175,
-        "best_POI":0.101
+        "best_scenery":6.686,
+        "best_POI":3.705
     },
     {
         "source":3,
         "target":0,
-        "best_scenery":-1.498,
-        "best_POI":0.6
+        "best_scenery":6.313,
+        "best_POI":2.846
     },
     {
         "source":3,
         "target":1,
-        "best_scenery":-1.4955,
-        "best_POI":0.538
+        "best_scenery":6.707,
+        "best_POI":3.3
     },
     {
         "source":3,
         "target":2,
-        "best_scenery":-2.0116,
-        "best_POI":0.492
+        "best_scenery":6.121,
+        "best_POI":3.496
     },
     {
         "source":4,
         "target":0,
-        "best_scenery":-1.5179,
-        "best_POI":0.404
+        "best_scenery":6.033,
+        "best_POI":3.0
     },
     {
         "source":4,
         "target":1,
-        "best_scenery":-1.4964,
-        "best_POI":0.389
+        "best_scenery":6.131,
+        "best_POI":3.333
     },
     {
         "source":4,
         "target":2,
-        "best_scenery":-1.4989,
-        "best_POI":0.296
+        "best_scenery":5.997,
+        "best_POI":3.506
     },
     {
         "source":4,
         "target":3,
-        "best_scenery":-1.0409,
-        "best_POI":0.78
+        "best_scenery":6.134,
+        "best_POI":3.124
     },
     {
         "source":5,
         "target":0,
-        "best_scenery":-0.4792,
-        "best_POI":0.447
+        "best_scenery":6.397,
+        "best_POI":2.453
     },
     {
         "source":5,
         "target":1,
-        "best_scenery":-1.0262,
-        "best_POI":0.548
+        "best_scenery":6.712,
+        "best_POI":3.011
     },
     {
         "source":5,
         "target":2,
-        "best_scenery":-1.5046,
-        "best_POI":0.318
+        "best_scenery":6.008,
+        "best_POI":3.272
     },
     {
         "source":5,
         "target":3,
-        "best_scenery":-1.5324,
-        "best_POI":0.939
+        "best_scenery":6.029,
+        "best_POI":2.802
     },
     {
         "source":5,
         "target":4,
-        "best_scenery":-1.0804,
-        "best_POI":0.743
+        "best_scenery":5.858,
+        "best_POI":2.897
     },
     {
         "source":6,
         "target":0,
-        "best_scenery":-0.9832,
-        "best_POI":0.287
+        "best_scenery":6.276,
+        "best_POI":2.807
     },
     {
         "source":6,
         "target":1,
-        "best_scenery":-0.9969,
-        "best_POI":0.388
+        "best_scenery":6.591,
+        "best_POI":3.261
     },
     {
         "source":6,
         "target":2,
-        "best_scenery":-2.0086,
-        "best_POI":0.171
+        "best_scenery":6.619,
+        "best_POI":3.575
     },
     {
         "source":6,
         "target":3,
-        "best_scenery":-1.0284,
-        "best_POI":0.779
+        "best_scenery":6.64,
+        "best_POI":3.17
     },
     {
         "source":6,
         "target":4,
-        "best_scenery":-1.0293,
-        "best_POI":0.583
+        "best_scenery":6.281,
+        "best_POI":3.203
     },
     {
         "source":6,
         "target":5,
-        "best_scenery":-0.504,
-        "best_POI":0.618
+        "best_scenery":6.645,
+        "best_POI":2.881
     },
     {
         "source":7,
         "target":0,
-        "best_scenery":-1.0538,
-        "best_POI":0.437
+        "best_scenery":6.305,
+        "best_POI":2.883
     },
     {
         "source":7,
         "target":1,
-        "best_scenery":-1.5,
-        "best_POI":0.375
+        "best_scenery":6.837,
+        "best_POI":3.337
     },
     {
         "source":7,
         "target":2,
-        "best_scenery":-1.4835,
-        "best_POI":0.329
+        "best_scenery":6.499,
+        "best_POI":3.688
     },
     {
         "source":7,
         "target":3,
-        "best_scenery":-0.5281,
-        "best_POI":0.103
+        "best_scenery":6.886,
+        "best_POI":3.283
     },
     {
         "source":7,
         "target":4,
-        "best_scenery":-1.0157,
-        "best_POI":0.617
+        "best_scenery":6.367,
+        "best_POI":3.396
     },
     {
         "source":7,
         "target":5,
-        "best_scenery":-1.4946,
-        "best_POI":0.776
+        "best_scenery":6.61,
+        "best_POI":2.994
     },
     {
         "source":7,
         "target":6,
-        "best_scenery":-1.4933,
-        "best_POI":0.616
+        "best_scenery":6.77,
+        "best_POI":3.207
     },
     {
         "source":8,
         "target":0,
-        "best_scenery":-0.9637,
-        "best_POI":0.274
+        "best_scenery":6.752,
+        "best_POI":2.939
     },
     {
         "source":8,
         "target":1,
-        "best_scenery":-1.5107,
-        "best_POI":0.335
+        "best_scenery":7.067,
+        "best_POI":3.269
     },
     {
         "source":8,
         "target":2,
-        "best_scenery":-1.0201,
-        "best_POI":0.105
+        "best_scenery":6.424,
+        "best_POI":3.727
     },
     {
         "source":8,
         "target":3,
-        "best_scenery":-1.5382,
-        "best_POI":0.726
+        "best_scenery":6.445,
+        "best_POI":3.198
     },
     {
         "source":8,
         "target":4,
-        "best_scenery":-1.0598,
-        "best_POI":0.53
+        "best_scenery":6.213,
+        "best_POI":3.352
     },
     {
         "source":8,
         "target":5,
-        "best_scenery":-0.4845,
-        "best_POI":-0.027
+        "best_scenery":6.169,
+        "best_POI":2.807
     },
     {
         "source":8,
         "target":6,
-        "best_scenery":-0.9885,
-        "best_POI":0.405
+        "best_scenery":7.0,
+        "best_POI":3.159
     },
     {
         "source":8,
         "target":7,
-        "best_scenery":-1.0101,
-        "best_POI":0.563
+        "best_scenery":6.965,
+        "best_POI":3.252
     },
     {
         "source":9,
         "target":0,
-        "best_scenery":-1.476,
-        "best_POI":0.632
+        "best_scenery":6.093,
+        "best_POI":2.755
     },
     {
         "source":9,
         "target":1,
-        "best_scenery":-1.949,
-        "best_POI":0.57
+        "best_scenery":6.487,
+        "best_POI":3.301
     },
     {
         "source":9,
         "target":2,
-        "best_scenery":-2.4651,
-        "best_POI":0.524
+        "best_scenery":5.901,
+        "best_POI":3.545
     },
     {
         "source":9,
         "target":3,
-        "best_scenery":-0.4535,
-        "best_POI":0.818
+        "best_scenery":6.14,
+        "best_POI":3.281
     },
     {
         "source":9,
         "target":4,
-        "best_scenery":-1.4944,
-        "best_POI":0.812
+        "best_scenery":5.914,
+        "best_POI":3.17
     },
     {
         "source":9,
         "target":5,
-        "best_scenery":-1.9552,
-        "best_POI":0.971
+        "best_scenery":5.809,
+        "best_POI":2.822
     },
     {
         "source":9,
         "target":6,
-        "best_scenery":-1.4819,
-        "best_POI":0.811
+        "best_scenery":6.42,
+        "best_POI":3.242
     },
     {
         "source":9,
         "target":7,
-        "best_scenery":-0.9816,
-        "best_POI":0.655
+        "best_scenery":6.666,
+        "best_POI":3.318
     },
     {
         "source":9,
         "target":8,
-        "best_scenery":-1.9917,
-        "best_POI":0.758
+        "best_scenery":6.225,
+        "best_POI":3.109
     },
     {
         "source":10,
         "target":0,
-        "best_scenery":-1.0279,
-        "best_POI":0.334
+        "best_scenery":6.412,
+        "best_POI":2.901
     },
     {
         "source":10,
         "target":1,
-        "best_scenery":-1.5749,
-        "best_POI":0.4
+        "best_scenery":6.51,
+        "best_POI":3.2
     },
     {
         "source":10,
         "target":2,
-        "best_scenery":-1.9215,
-        "best_POI":0.226
+        "best_scenery":6.205,
+        "best_POI":3.57
     },
     {
         "source":10,
         "target":3,
-        "best_scenery":-1.5247,
-        "best_POI":0.791
+        "best_scenery":6.451,
+        "best_POI":3.162
     },
     {
         "source":10,
         "target":4,
-        "best_scenery":-0.49,
-        "best_POI":0.595
+        "best_scenery":6.505,
+        "best_POI":3.319
     },
     {
         "source":10,
         "target":5,
-        "best_scenery":-1.5071,
-        "best_POI":0.673
+        "best_scenery":6.175,
+        "best_POI":2.876
     },
     {
         "source":10,
         "target":6,
-        "best_scenery":-1.5131,
-        "best_POI":0.513
+        "best_scenery":6.66,
+        "best_POI":3.123
     },
     {
         "source":10,
         "target":7,
-        "best_scenery":-1.5057,
-        "best_POI":0.628
+        "best_scenery":6.37,
+        "best_POI":3.266
     },
     {
         "source":10,
         "target":8,
-        "best_scenery":-1.5498,
-        "best_POI":0.46
+        "best_scenery":6.53,
+        "best_POI":3.222
     },
     {
         "source":10,
         "target":9,
-        "best_scenery":-1.9782,
-        "best_POI":0.823
+        "best_scenery":6.231,
+        "best_POI":3.04
     },
     {
         "source":11,
         "target":0,
-        "best_scenery":-0.508,
-        "best_POI":0.641
+        "best_scenery":6.49,
+        "best_POI":3.104
     },
     {
         "source":11,
         "target":1,
-        "best_scenery":-1.055,
-        "best_POI":0.579
+        "best_scenery":6.316,
+        "best_POI":3.377
     },
     {
         "source":11,
         "target":2,
-        "best_scenery":-2.0293,
-        "best_POI":0.294
+        "best_scenery":6.151,
+        "best_POI":3.894
     },
     {
         "source":11,
         "target":3,
-        "best_scenery":-0.99,
-        "best_POI":0.455
+        "best_scenery":5.42,
+        "best_POI":2.394
     },
     {
         "source":11,
         "target":4,
-        "best_scenery":-1.5615,
-        "best_POI":0.719
+        "best_scenery":6.311,
+        "best_POI":3.519
     },
     {
         "source":11,
         "target":5,
-        "best_scenery":-0.9872,
-        "best_POI":0.676
+        "best_scenery":6.127,
+        "best_POI":3.076
     },
     {
         "source":11,
         "target":6,
-        "best_scenery":-1.4912,
-        "best_POI":0.516
+        "best_scenery":6.405,
+        "best_POI":3.318
     },
     {
         "source":11,
         "target":7,
-        "best_scenery":-0.5458,
-        "best_POI":0.292
+        "best_scenery":6.712,
+        "best_POI":3.307
     },
     {
         "source":11,
         "target":8,
-        "best_scenery":-1.4717,
-        "best_POI":0.463
+        "best_scenery":6.482,
+        "best_POI":3.458
     },
     {
         "source":11,
         "target":9,
-        "best_scenery":-0.968,
-        "best_POI":0.637
+        "best_scenery":6.085,
+        "best_POI":3.1
     },
     {
         "source":11,
         "target":10,
-        "best_scenery":-1.5359,
-        "best_POI":0.789
+        "best_scenery":6.243,
+        "best_POI":3.389
     },
     {
         "source":12,
         "target":0,
-        "best_scenery":-0.5118,
-        "best_POI":0.766
+        "best_scenery":6.075,
+        "best_POI":3.105
     },
     {
         "source":12,
         "target":1,
-        "best_scenery":-1.0588,
-        "best_POI":0.704
+        "best_scenery":6.39,
+        "best_POI":3.528
     },
     {
         "source":12,
         "target":2,
-        "best_scenery":-1.5707,
-        "best_POI":0.419
+        "best_scenery":6.368,
+        "best_POI":4.019
     },
     {
         "source":12,
         "target":3,
-        "best_scenery":-2.0098,
-        "best_POI":0.919
+        "best_scenery":6.395,
+        "best_POI":3.49
     },
     {
         "source":12,
         "target":4,
-        "best_scenery":-2.0297,
-        "best_POI":0.844
+        "best_scenery":6.115,
+        "best_POI":3.644
     },
     {
         "source":12,
         "target":5,
-        "best_scenery":-0.991,
-        "best_POI":0.467
+        "best_scenery":6.479,
+        "best_POI":2.712
     },
     {
         "source":12,
         "target":6,
-        "best_scenery":-1.495,
-        "best_POI":0.598
+        "best_scenery":6.358,
+        "best_POI":3.451
     },
     {
         "source":12,
         "target":7,
-        "best_scenery":-1.5656,
-        "best_POI":0.756
+        "best_scenery":6.387,
+        "best_POI":3.527
     },
     {
         "source":12,
         "target":8,
-        "best_scenery":-1.4755,
-        "best_POI":0.294
+        "best_scenery":6.834,
+        "best_POI":3.583
     },
     {
         "source":12,
         "target":9,
-        "best_scenery":-1.9878,
-        "best_POI":0.951
+        "best_scenery":6.175,
+        "best_POI":3.322
     },
     {
         "source":12,
         "target":10,
-        "best_scenery":-1.5397,
-        "best_POI":0.914
+        "best_scenery":6.494,
+        "best_POI":3.514
     },
     {
         "source":12,
         "target":11,
-        "best_scenery":-1.0198,
-        "best_POI":0.621
+        "best_scenery":6.572,
+        "best_POI":3.324
     },
     {
         "source":13,
         "target":0,
-        "best_scenery":-1.0488,
-        "best_POI":0.141
+        "best_scenery":5.81,
+        "best_POI":2.987
     },
     {
         "source":13,
         "target":1,
-        "best_scenery":-0.5018,
-        "best_POI":0.079
+        "best_scenery":6.623,
+        "best_POI":3.441
     },
     {
         "source":13,
         "target":2,
-        "best_scenery":-1.5157,
-        "best_POI":0.033
+        "best_scenery":6.184,
+        "best_POI":3.663
     },
     {
         "source":13,
         "target":3,
-        "best_scenery":-1.5235,
-        "best_POI":0.399
+        "best_scenery":6.321,
+        "best_POI":3.179
     },
     {
         "source":13,
         "target":4,
-        "best_scenery":-1.0479,
-        "best_POI":0.321
+        "best_scenery":6.313,
+        "best_POI":3.308
     },
     {
         "source":13,
         "target":5,
-        "best_scenery":-0.9991,
-        "best_POI":0.48
+        "best_scenery":6.045,
+        "best_POI":2.943
     },
     {
         "source":13,
         "target":6,
-        "best_scenery":-0.4951,
-        "best_POI":0.32
+        "best_scenery":6.205,
+        "best_POI":3.311
     },
     {
         "source":13,
         "target":7,
-        "best_scenery":-0.9982,
-        "best_POI":0.236
+        "best_scenery":6.124,
+        "best_POI":3.216
     },
     {
         "source":13,
         "target":8,
-        "best_scenery":-1.0423,
-        "best_POI":0.267
+        "best_scenery":6.4,
+        "best_POI":3.339
     },
     {
         "source":13,
         "target":9,
-        "best_scenery":-1.977,
-        "best_POI":0.431
+        "best_scenery":6.101,
+        "best_POI":3.422
     },
     {
         "source":13,
         "target":10,
-        "best_scenery":-1.5379,
-        "best_POI":0.332
+        "best_scenery":6.692,
+        "best_POI":3.303
     },
     {
         "source":13,
         "target":11,
-        "best_scenery":-1.544,
-        "best_POI":0.298
+        "best_scenery":6.498,
+        "best_POI":3.498
     },
     {
         "source":13,
         "target":12,
-        "best_scenery":-1.5606,
-        "best_POI":0.46
+        "best_scenery":5.892,
+        "best_POI":3.631
     },
     {
         "source":14,
         "target":0,
-        "best_scenery":-0.9877,
-        "best_POI":0.643
+        "best_scenery":6.512,
+        "best_POI":2.582
     },
     {
         "source":14,
         "target":1,
-        "best_scenery":-1.5347,
-        "best_POI":0.581
+        "best_scenery":6.827,
+        "best_POI":3.005
     },
     {
         "source":14,
         "target":2,
-        "best_scenery":-1.5732,
-        "best_POI":0.296
+        "best_scenery":6.123,
+        "best_POI":3.496
     },
     {
         "source":14,
         "target":3,
-        "best_scenery":-2.0409,
-        "best_POI":0.796
+        "best_scenery":6.144,
+        "best_POI":2.967
     },
     {
         "source":14,
         "target":4,
-        "best_scenery":-1.5889,
-        "best_POI":0.721
+        "best_scenery":5.973,
+        "best_POI":3.121
     },
     {
         "source":14,
         "target":5,
-        "best_scenery":-0.5085,
-        "best_POI":0.59
+        "best_scenery":6.042,
+        "best_POI":3.053
     },
     {
         "source":14,
         "target":6,
-        "best_scenery":-1.0125,
-        "best_POI":0.475
+        "best_scenery":6.76,
+        "best_POI":3.093
     },
     {
         "source":14,
         "target":7,
-        "best_scenery":-2.0031,
-        "best_POI":0.633
+        "best_scenery":6.725,
+        "best_POI":3.017
     },
     {
         "source":14,
         "target":8,
-        "best_scenery":-0.993,
-        "best_POI":0.377
+        "best_scenery":6.397,
+        "best_POI":3.06
     },
     {
         "source":14,
         "target":9,
-        "best_scenery":-2.4637,
-        "best_POI":0.828
+        "best_scenery":5.924,
+        "best_POI":2.799
     },
     {
         "source":14,
         "target":10,
-        "best_scenery":-2.0156,
-        "best_POI":0.791
+        "best_scenery":6.29,
+        "best_POI":2.991
     },
     {
         "source":14,
         "target":11,
-        "best_scenery":-1.4957,
-        "best_POI":0.498
+        "best_scenery":6.242,
+        "best_POI":3.049
     },
     {
         "source":14,
         "target":12,
-        "best_scenery":-1.0837,
-        "best_POI":0.663
+        "best_scenery":6.594,
+        "best_POI":3.108
     },
     {
         "source":14,
         "target":13,
-        "best_scenery":-1.5076,
-        "best_POI":0.337
+        "best_scenery":6.16,
+        "best_POI":3.108
     },
     {
         "source":15,
         "target":0,
-        "best_scenery":-1.5278,
-        "best_POI":-0.116
+        "best_scenery":6.22,
+        "best_POI":3.023
     },
     {
         "source":15,
         "target":1,
-        "best_scenery":-0.9808,
-        "best_POI":-0.178
+        "best_scenery":6.682,
+        "best_POI":3.446
     },
     {
         "source":15,
         "target":2,
-        "best_scenery":-1.5399,
-        "best_POI":-0.112
+        "best_scenery":6.594,
+        "best_POI":3.393
     },
     {
         "source":15,
         "target":3,
-        "best_scenery":-2.0025,
-        "best_POI":0.136
+        "best_scenery":6.731,
+        "best_POI":3.408
     },
     {
         "source":15,
         "target":4,
-        "best_scenery":-1.4798,
-        "best_POI":-0.038
+        "best_scenery":6.723,
+        "best_POI":3.562
     },
     {
         "source":15,
         "target":5,
-        "best_scenery":-1.4781,
-        "best_POI":0.01
+        "best_scenery":6.455,
+        "best_POI":2.922
     },
     {
         "source":15,
         "target":6,
-        "best_scenery":-0.9741,
-        "best_POI":-0.15
+        "best_scenery":6.615,
+        "best_POI":3.369
     },
     {
         "source":15,
         "target":7,
-        "best_scenery":-1.4772,
-        "best_POI":-0.027
+        "best_scenery":6.534,
+        "best_POI":3.445
     },
     {
         "source":15,
         "target":8,
-        "best_scenery":-1.5213,
-        "best_POI":-0.203
+        "best_scenery":6.81,
+        "best_POI":3.167
     },
     {
         "source":15,
         "target":9,
-        "best_scenery":-2.456,
-        "best_POI":0.168
+        "best_scenery":6.511,
+        "best_POI":3.24
     },
     {
         "source":15,
         "target":10,
-        "best_scenery":-1.4574,
-        "best_POI":0.032
+        "best_scenery":7.102,
+        "best_POI":3.432
     },
     {
         "source":15,
         "target":11,
-        "best_scenery":-2.023,
-        "best_POI":-0.102
+        "best_scenery":6.908,
+        "best_POI":3.473
     },
     {
         "source":15,
         "target":12,
-        "best_scenery":-2.0396,
-        "best_POI":0.023
+        "best_scenery":6.302,
+        "best_POI":3.429
     },
     {
         "source":15,
         "target":13,
-        "best_scenery":-0.479,
-        "best_POI":-0.323
+        "best_scenery":6.395,
+        "best_POI":3.549
     },
     {
         "source":15,
         "target":14,
-        "best_scenery":-1.9866,
-        "best_POI":-0.1
+        "best_scenery":6.57,
+        "best_POI":2.968
     },
     {
         "source":16,
         "target":0,
-        "best_scenery":-0.9827,
-        "best_POI":0.395
+        "best_scenery":6.037,
+        "best_POI":2.654
     },
     {
         "source":16,
         "target":1,
-        "best_scenery":-1.5297,
-        "best_POI":0.333
+        "best_scenery":5.915,
+        "best_POI":2.927
     },
     {
         "source":16,
         "target":2,
-        "best_scenery":-2.504,
-        "best_POI":0.287
+        "best_scenery":5.873,
+        "best_POI":3.444
     },
     {
         "source":16,
         "target":3,
-        "best_scenery":-0.5153,
-        "best_POI":0.581
+        "best_scenery":5.873,
+        "best_POI":2.844
     },
     {
         "source":16,
         "target":4,
-        "best_scenery":-1.5562,
-        "best_POI":0.575
+        "best_scenery":5.858,
+        "best_POI":3.069
     },
     {
         "source":16,
         "target":5,
-        "best_scenery":-1.4619,
-        "best_POI":0.734
+        "best_scenery":5.899,
+        "best_POI":2.626
     },
     {
         "source":16,
         "target":6,
-        "best_scenery":-1.5437,
-        "best_POI":0.574
+        "best_scenery":6.059,
+        "best_POI":2.868
     },
     {
         "source":16,
         "target":7,
-        "best_scenery":-1.0205,
-        "best_POI":0.418
+        "best_scenery":6.259,
+        "best_POI":2.881
     },
     {
         "source":16,
         "target":8,
-        "best_scenery":-1.9464,
-        "best_POI":0.521
+        "best_scenery":6.254,
+        "best_POI":3.008
     },
     {
         "source":16,
         "target":9,
-        "best_scenery":-0.4933,
-        "best_POI":0.549
+        "best_scenery":6.538,
+        "best_POI":3.012
     },
     {
         "source":16,
         "target":10,
-        "best_scenery":-2.0106,
-        "best_POI":0.586
+        "best_scenery":6.195,
+        "best_POI":2.939
     },
     {
         "source":16,
         "target":11,
-        "best_scenery":-0.4747,
-        "best_POI":0.536
+        "best_scenery":6.352,
+        "best_POI":2.999
     },
     {
         "source":16,
         "target":12,
-        "best_scenery":-1.4945,
-        "best_POI":0.714
+        "best_scenery":6.119,
+        "best_POI":2.885
     },
     {
         "source":16,
         "target":13,
-        "best_scenery":-2.0187,
-        "best_POI":0.194
+        "best_scenery":6.045,
+        "best_POI":3.048
     },
     {
         "source":16,
         "target":14,
-        "best_scenery":-1.9704,
-        "best_POI":0.591
+        "best_scenery":6.014,
+        "best_POI":2.599
     },
     {
         "source":16,
         "target":15,
-        "best_scenery":-2.4977,
-        "best_POI":-0.069
+        "best_scenery":6.455,
+        "best_POI":3.023
     },
     {
         "source":17,
         "target":0,
-        "best_scenery":-2.0015,
-        "best_POI":0.213
+        "best_scenery":6.348,
+        "best_POI":3.352
     },
     {
         "source":17,
         "target":1,
-        "best_scenery":-1.977,
-        "best_POI":0.151
+        "best_scenery":6.446,
+        "best_POI":3.775
     },
     {
         "source":17,
         "target":2,
-        "best_scenery":-1.4603,
-        "best_POI":0.217
+        "best_scenery":6.141,
+        "best_POI":3.188
     },
     {
         "source":17,
         "target":3,
-        "best_scenery":-1.5245,
-        "best_POI":0.465
+        "best_scenery":6.387,
+        "best_POI":3.737
     },
     {
         "source":17,
         "target":4,
-        "best_scenery":-0.4836,
-        "best_POI":0.291
+        "best_scenery":6.441,
+        "best_POI":3.891
     },
     {
         "source":17,
         "target":5,
-        "best_scenery":-1.564,
-        "best_POI":0.172
+        "best_scenery":6.156,
+        "best_POI":3.251
     },
     {
         "source":17,
         "target":6,
-        "best_scenery":-1.5129,
-        "best_POI":0.144
+        "best_scenery":6.596,
+        "best_POI":3.698
     },
     {
         "source":17,
         "target":7,
-        "best_scenery":-1.4993,
-        "best_POI":0.302
+        "best_scenery":6.354,
+        "best_POI":3.774
     },
     {
         "source":17,
         "target":8,
-        "best_scenery":-1.5434,
-        "best_POI":-0.041
+        "best_scenery":6.511,
+        "best_POI":3.496
     },
     {
         "source":17,
         "target":9,
-        "best_scenery":-1.978,
-        "best_POI":0.497
+        "best_scenery":6.167,
+        "best_POI":3.569
     },
     {
         "source":17,
         "target":10,
-        "best_scenery":-0.9736,
-        "best_POI":0.361
+        "best_scenery":6.373,
+        "best_POI":3.761
     },
     {
         "source":17,
         "target":11,
-        "best_scenery":-2.0451,
-        "best_POI":0.202
+        "best_scenery":6.258,
+        "best_POI":3.802
     },
     {
         "source":17,
         "target":12,
-        "best_scenery":-2.5133,
-        "best_POI":0.233
+        "best_scenery":6.43,
+        "best_POI":3.758
     },
     {
         "source":17,
         "target":13,
-        "best_scenery":-1.4752,
-        "best_POI":0.006
+        "best_scenery":6.628,
+        "best_POI":3.878
     },
     {
         "source":17,
         "target":14,
-        "best_scenery":-2.0725,
-        "best_POI":0.079
+        "best_scenery":6.271,
+        "best_POI":3.297
     },
     {
         "source":17,
         "target":15,
-        "best_scenery":-0.9962,
-        "best_POI":-0.179
+        "best_scenery":7.038,
+        "best_POI":3.608
     },
     {
         "source":17,
         "target":16,
-        "best_scenery":-2.0398,
-        "best_POI":0.26
+        "best_scenery":6.131,
+        "best_POI":3.352
     },
     {
         "source":18,
         "target":0,
-        "best_scenery":-0.4839,
-        "best_POI":0.268
+        "best_scenery":6.444,
+        "best_POI":3.035
     },
     {
         "source":18,
         "target":1,
-        "best_scenery":-1.0309,
-        "best_POI":0.423
+        "best_scenery":6.625,
+        "best_POI":3.334
     },
     {
         "source":18,
         "target":2,
-        "best_scenery":-2.4655,
-        "best_POI":0.21
+        "best_scenery":6.452,
+        "best_POI":3.704
     },
     {
         "source":18,
         "target":3,
-        "best_scenery":-1.9819,
-        "best_POI":0.814
+        "best_scenery":6.674,
+        "best_POI":3.296
     },
     {
         "source":18,
         "target":4,
-        "best_scenery":-1.034,
-        "best_POI":0.618
+        "best_scenery":6.315,
+        "best_POI":3.329
     },
     {
         "source":18,
         "target":5,
-        "best_scenery":-0.9631,
-        "best_POI":0.661
+        "best_scenery":6.563,
+        "best_POI":3.007
     },
     {
         "source":18,
         "target":6,
-        "best_scenery":-1.4671,
-        "best_POI":0.501
+        "best_scenery":6.442,
+        "best_POI":3.257
     },
     {
         "source":18,
         "target":7,
-        "best_scenery":-1.5377,
-        "best_POI":0.651
+        "best_scenery":6.368,
+        "best_POI":3.333
     },
     {
         "source":18,
         "target":8,
-        "best_scenery":-1.4476,
-        "best_POI":0.488
+        "best_scenery":6.918,
+        "best_POI":3.268
     },
     {
         "source":18,
         "target":9,
-        "best_scenery":-1.9599,
-        "best_POI":0.846
+        "best_scenery":6.454,
+        "best_POI":3.128
     },
     {
         "source":18,
         "target":10,
-        "best_scenery":-0.544,
-        "best_POI":0.548
+        "best_scenery":6.694,
+        "best_POI":3.315
     },
     {
         "source":18,
         "target":11,
-        "best_scenery":-0.9919,
-        "best_POI":0.855
+        "best_scenery":6.851,
+        "best_POI":3.394
     },
     {
         "source":18,
         "target":12,
-        "best_scenery":-0.9957,
-        "best_POI":0.98
+        "best_scenery":6.526,
+        "best_POI":3.519
     },
     {
         "source":18,
         "target":13,
-        "best_scenery":-1.5327,
-        "best_POI":0.355
+        "best_scenery":6.257,
+        "best_POI":3.437
     },
     {
         "source":18,
         "target":14,
-        "best_scenery":-1.4716,
-        "best_POI":0.857
+        "best_scenery":6.678,
+        "best_POI":2.996
     },
     {
         "source":18,
         "target":15,
-        "best_scenery":-2.0014,
-        "best_POI":0.098
+        "best_scenery":6.667,
+        "best_POI":3.437
     },
     {
         "source":18,
         "target":16,
-        "best_scenery":-1.4666,
-        "best_POI":0.609
+        "best_scenery":6.398,
+        "best_POI":2.944
     },
     {
         "source":18,
         "target":17,
-        "best_scenery":-1.5176,
-        "best_POI":0.427
+        "best_scenery":6.63,
+        "best_POI":3.766
     },
     {
         "source":19,
         "target":0,
-        "best_scenery":-1.4916,
-        "best_POI":0.579
+        "best_scenery":6.121,
+        "best_POI":2.854
     },
     {
         "source":19,
         "target":1,
-        "best_scenery":-0.9755,
-        "best_POI":0.517
+        "best_scenery":6.16,
+        "best_POI":3.29
     },
     {
         "source":19,
         "target":2,
-        "best_scenery":-2.0028,
-        "best_POI":0.471
+        "best_scenery":6.503,
+        "best_POI":3.675
     },
     {
         "source":19,
         "target":3,
-        "best_scenery":-0.52,
-        "best_POI":0.807
+        "best_scenery":6.524,
+        "best_POI":3.27
     },
     {
         "source":19,
         "target":4,
-        "best_scenery":-0.5209,
-        "best_POI":0.759
+        "best_scenery":6.446,
+        "best_POI":3.303
     },
     {
         "source":19,
         "target":5,
-        "best_scenery":-1.0124,
-        "best_POI":0.918
+        "best_scenery":6.529,
+        "best_POI":2.981
     },
     {
         "source":19,
         "target":6,
-        "best_scenery":-0.5084,
-        "best_POI":0.758
+        "best_scenery":6.689,
+        "best_POI":3.231
     },
     {
         "source":19,
         "target":7,
-        "best_scenery":-1.0481,
-        "best_POI":0.644
+        "best_scenery":6.443,
+        "best_POI":3.307
     },
     {
         "source":19,
         "target":8,
-        "best_scenery":-1.4969,
-        "best_POI":0.705
+        "best_scenery":6.884,
+        "best_POI":3.239
     },
     {
         "source":19,
         "target":9,
-        "best_scenery":-0.9735,
-        "best_POI":0.839
+        "best_scenery":6.304,
+        "best_POI":3.119
     },
     {
         "source":19,
         "target":10,
-        "best_scenery":-1.0047,
-        "best_POI":0.77
+        "best_scenery":6.825,
+        "best_POI":3.17
     },
     {
         "source":19,
         "target":11,
-        "best_scenery":-1.51,
-        "best_POI":0.434
+        "best_scenery":6.631,
+        "best_POI":3.165
     },
     {
         "source":19,
         "target":12,
-        "best_scenery":-2.0034,
-        "best_POI":0.898
+        "best_scenery":6.207,
+        "best_POI":3.498
     },
     {
         "source":19,
         "target":13,
-        "best_scenery":-1.0035,
-        "best_POI":0.378
+        "best_scenery":5.978,
+        "best_POI":3.411
     },
     {
         "source":19,
         "target":14,
-        "best_scenery":-1.5209,
-        "best_POI":0.775
+        "best_scenery":6.644,
+        "best_POI":2.975
     },
     {
         "source":19,
         "target":15,
-        "best_scenery":-1.4825,
-        "best_POI":0.115
+        "best_scenery":6.528,
+        "best_POI":3.416
     },
     {
         "source":19,
         "target":16,
-        "best_scenery":-1.0353,
-        "best_POI":0.602
+        "best_scenery":6.178,
+        "best_POI":2.715
     },
     {
         "source":19,
         "target":17,
-        "best_scenery":-1.0045,
-        "best_POI":0.444
+        "best_scenery":6.761,
+        "best_POI":3.745
     },
     {
         "source":19,
         "target":18,
-        "best_scenery":-1.5487,
-        "best_POI":0.793
+        "best_scenery":6.39,
+        "best_POI":3.304
     },
     {
         "source":20,
         "target":0,
-        "best_scenery":-1.023,
-        "best_POI":0.539
+        "best_scenery":6.381,
+        "best_POI":2.853
     },
     {
         "source":20,
         "target":1,
-        "best_scenery":-1.57,
-        "best_POI":0.748
+        "best_scenery":6.488,
+        "best_POI":3.411
     },
     {
         "source":20,
         "target":2,
-        "best_scenery":-0.9623,
-        "best_POI":0.518
+        "best_scenery":6.474,
+        "best_POI":3.643
     },
     {
         "source":20,
         "target":3,
-        "best_scenery":-1.5775,
-        "best_POI":1.139
+        "best_scenery":6.495,
+        "best_POI":3.202
     },
     {
         "source":20,
         "target":4,
-        "best_scenery":-0.5366,
-        "best_POI":0.943
+        "best_scenery":6.62,
+        "best_POI":3.268
     },
     {
         "source":20,
         "target":5,
-        "best_scenery":-0.5438,
-        "best_POI":0.586
+        "best_scenery":6.5,
+        "best_POI":3.049
     },
     {
         "source":20,
         "target":6,
-        "best_scenery":-1.0478,
-        "best_POI":0.818
+        "best_scenery":6.34,
+        "best_POI":3.281
     },
     {
         "source":20,
         "target":7,
-        "best_scenery":-1.5523,
-        "best_POI":0.976
+        "best_scenery":6.414,
+        "best_POI":3.394
     },
     {
         "source":20,
         "target":8,
-        "best_scenery":-1.0004,
-        "best_POI":0.373
+        "best_scenery":6.855,
+        "best_POI":3.207
     },
     {
         "source":20,
         "target":9,
-        "best_scenery":-2.031,
-        "best_POI":1.171
+        "best_scenery":6.275,
+        "best_POI":3.222
     },
     {
         "source":20,
         "target":10,
-        "best_scenery":-0.9779,
-        "best_POI":0.873
+        "best_scenery":6.982,
+        "best_POI":3.276
     },
     {
         "source":20,
         "target":11,
-        "best_scenery":-1.531,
-        "best_POI":0.876
+        "best_scenery":6.381,
+        "best_POI":3.476
     },
     {
         "source":20,
         "target":12,
-        "best_scenery":-1.5348,
-        "best_POI":0.519
+        "best_scenery":6.463,
+        "best_POI":3.17
     },
     {
         "source":20,
         "target":13,
-        "best_scenery":-1.5429,
-        "best_POI":0.68
+        "best_scenery":6.091,
+        "best_POI":3.343
     },
     {
         "source":20,
         "target":14,
-        "best_scenery":-1.0523,
-        "best_POI":0.462
+        "best_scenery":6.615,
+        "best_POI":2.925
     },
     {
         "source":20,
         "target":15,
-        "best_scenery":-1.5119,
-        "best_POI":0.21
+        "best_scenery":6.501,
+        "best_POI":3.073
     },
     {
         "source":20,
         "target":16,
-        "best_scenery":-2.0057,
-        "best_POI":0.934
+        "best_scenery":5.928,
+        "best_POI":3.026
     },
     {
         "source":20,
         "target":17,
-        "best_scenery":-1.0202,
-        "best_POI":0.372
+        "best_scenery":6.918,
+        "best_POI":3.378
     },
     {
         "source":20,
         "target":18,
-        "best_scenery":-1.5069,
-        "best_POI":0.807
+        "best_scenery":6.547,
+        "best_POI":3.407
     },
     {
         "source":20,
         "target":19,
-        "best_scenery":-1.0575,
-        "best_POI":1.118
+        "best_scenery":6.168,
+        "best_POI":3.381
     },
     {
         "source":21,
         "target":0,
-        "best_scenery":-1.016,
-        "best_POI":0.764
+        "best_scenery":6.565,
+        "best_POI":3.427
     },
     {
         "source":21,
         "target":1,
-        "best_scenery":-1.563,
-        "best_POI":0.702
+        "best_scenery":6.504,
+        "best_POI":3.7
     },
     {
         "source":21,
         "target":2,
-        "best_scenery":-2.5418,
-        "best_POI":0.417
+        "best_scenery":6.331,
+        "best_POI":4.217
     },
     {
         "source":21,
         "target":3,
-        "best_scenery":-1.5025,
-        "best_POI":0.578
+        "best_scenery":6.553,
+        "best_POI":2.868
     },
     {
         "source":21,
         "target":4,
-        "best_scenery":-1.5661,
-        "best_POI":0.842
+        "best_scenery":6.386,
+        "best_POI":3.842
     },
     {
         "source":21,
         "target":5,
-        "best_scenery":-1.4952,
-        "best_POI":0.799
+        "best_scenery":6.442,
+        "best_POI":3.399
     },
     {
         "source":21,
         "target":6,
-        "best_scenery":-1.9992,
-        "best_POI":0.639
+        "best_scenery":6.48,
+        "best_POI":3.641
     },
     {
         "source":21,
         "target":7,
-        "best_scenery":-1.0583,
-        "best_POI":0.415
+        "best_scenery":6.787,
+        "best_POI":3.63
     },
     {
         "source":21,
         "target":8,
-        "best_scenery":-1.9797,
-        "best_POI":0.586
+        "best_scenery":6.797,
+        "best_POI":3.781
     },
     {
         "source":21,
         "target":9,
-        "best_scenery":-1.4805,
-        "best_POI":0.76
+        "best_scenery":6.333,
+        "best_POI":3.423
     },
     {
         "source":21,
         "target":10,
-        "best_scenery":-1.0761,
-        "best_POI":0.912
+        "best_scenery":6.573,
+        "best_POI":3.712
     },
     {
         "source":21,
         "target":11,
-        "best_scenery":-0.5125,
-        "best_POI":0.227
+        "best_scenery":6.73,
+        "best_POI":2.966
     },
     {
         "source":21,
         "target":12,
-        "best_scenery":-1.5278,
-        "best_POI":0.744
+        "best_scenery":6.647,
+        "best_POI":3.647
     },
     {
         "source":21,
         "target":13,
-        "best_scenery":-2.0565,
-        "best_POI":0.421
+        "best_scenery":6.573,
+        "best_POI":3.821
     },
     {
         "source":21,
         "target":14,
-        "best_scenery":-2.0037,
-        "best_POI":0.621
+        "best_scenery":6.557,
+        "best_POI":3.372
     },
     {
         "source":21,
         "target":15,
-        "best_scenery":-2.5335,
-        "best_POI":0.021
+        "best_scenery":6.983,
+        "best_POI":3.796
     },
     {
         "source":21,
         "target":16,
-        "best_scenery":-0.9872,
-        "best_POI":0.659
+        "best_scenery":6.277,
+        "best_POI":3.322
     },
     {
         "source":21,
         "target":17,
-        "best_scenery":-2.0497,
-        "best_POI":0.325
+        "best_scenery":6.509,
+        "best_POI":4.125
     },
     {
         "source":21,
         "target":18,
-        "best_scenery":-0.5321,
-        "best_POI":0.978
+        "best_scenery":6.926,
+        "best_POI":3.717
     },
     {
         "source":21,
         "target":19,
-        "best_scenery":-2.0225,
-        "best_POI":0.557
+        "best_scenery":6.706,
+        "best_POI":3.488
     },
     {
         "source":21,
         "target":20,
-        "best_scenery":-2.039,
-        "best_POI":0.999
+        "best_scenery":6.456,
+        "best_POI":3.799
     },
     {
         "source":22,
         "target":0,
-        "best_scenery":-2.0217,
-        "best_POI":0.146
+        "best_scenery":6.79,
+        "best_POI":3.025
     },
     {
         "source":22,
         "target":1,
-        "best_scenery":-1.5479,
-        "best_POI":0.084
+        "best_scenery":6.78,
+        "best_POI":3.355
     },
     {
         "source":22,
         "target":2,
-        "best_scenery":-0.4696,
-        "best_POI":0.15
+        "best_scenery":6.301,
+        "best_POI":3.099
     },
     {
         "source":22,
         "target":3,
-        "best_scenery":-1.542,
-        "best_POI":0.398
+        "best_scenery":6.625,
+        "best_POI":3.27
     },
     {
         "source":22,
         "target":4,
-        "best_scenery":-1.0636,
-        "best_POI":0.224
+        "best_scenery":6.416,
+        "best_POI":3.424
     },
     {
         "source":22,
         "target":5,
-        "best_scenery":-1.5425,
-        "best_POI":0.168
+        "best_scenery":6.427,
+        "best_POI":2.922
     },
     {
         "source":22,
         "target":6,
-        "best_scenery":-1.5412,
-        "best_POI":0.077
+        "best_scenery":6.687,
+        "best_POI":3.231
     },
     {
         "source":22,
         "target":7,
-        "best_scenery":-1.0139,
-        "best_POI":0.235
+        "best_scenery":7.003,
+        "best_POI":3.338
     },
     {
         "source":22,
         "target":8,
-        "best_scenery":-1.058,
-        "best_POI":-0.045
+        "best_scenery":6.843,
+        "best_POI":3.377
     },
     {
         "source":22,
         "target":9,
-        "best_scenery":-1.9955,
-        "best_POI":0.43
+        "best_scenery":6.405,
+        "best_POI":3.195
     },
     {
         "source":22,
         "target":10,
-        "best_scenery":-1.4519,
-        "best_POI":0.294
+        "best_scenery":6.507,
+        "best_POI":3.294
     },
     {
         "source":22,
         "target":11,
-        "best_scenery":-1.5597,
-        "best_POI":0.144
+        "best_scenery":6.655,
+        "best_POI":3.544
     },
     {
         "source":22,
         "target":12,
-        "best_scenery":-2.0403,
-        "best_POI":0.269
+        "best_scenery":6.872,
+        "best_POI":3.669
     },
     {
         "source":22,
         "target":13,
-        "best_scenery":-1.0461,
-        "best_POI":-0.061
+        "best_scenery":6.603,
+        "best_POI":3.411
     },
     {
         "source":22,
         "target":14,
-        "best_scenery":-2.0428,
-        "best_POI":0.146
+        "best_scenery":6.542,
+        "best_POI":3.146
     },
     {
         "source":22,
         "target":15,
-        "best_scenery":-1.0703,
-        "best_POI":-0.262
+        "best_scenery":7.013,
+        "best_POI":3.203
     },
     {
         "source":22,
         "target":16,
-        "best_scenery":-2.0344,
-        "best_POI":0.193
+        "best_scenery":6.202,
+        "best_POI":3.094
     },
     {
         "source":22,
         "target":17,
-        "best_scenery":-0.9907,
-        "best_POI":0.067
+        "best_scenery":6.443,
+        "best_POI":3.362
     },
     {
         "source":22,
         "target":18,
-        "best_scenery":-1.9959,
-        "best_POI":0.36
+        "best_scenery":6.956,
+        "best_POI":3.354
     },
     {
         "source":22,
         "target":19,
-        "best_scenery":-1.5332,
-        "best_POI":0.377
+        "best_scenery":6.736,
+        "best_POI":3.325
     },
     {
         "source":22,
         "target":20,
-        "best_scenery":-1.4319,
-        "best_POI":0.368
+        "best_scenery":6.265,
+        "best_POI":3.293
     },
     {
         "source":22,
         "target":21,
-        "best_scenery":-2.0722,
-        "best_POI":0.267
+        "best_scenery":6.835,
+        "best_POI":3.867
     },
     {
         "source":23,
         "target":0,
-        "best_scenery":-1.4896,
-        "best_POI":0.397
+        "best_scenery":6.136,
+        "best_POI":2.834
     },
     {
         "source":23,
         "target":1,
-        "best_scenery":-1.5185,
-        "best_POI":0.598
+        "best_scenery":6.253,
+        "best_POI":3.461
     },
     {
         "source":23,
         "target":2,
-        "best_scenery":-1.4598,
-        "best_POI":0.368
+        "best_scenery":5.99,
+        "best_POI":3.568
     },
     {
         "source":23,
         "target":3,
-        "best_scenery":-1.063,
-        "best_POI":0.989
+        "best_scenery":5.93,
+        "best_POI":3.252
     },
     {
         "source":23,
         "target":4,
-        "best_scenery":-0.9517,
-        "best_POI":0.793
+        "best_scenery":5.922,
+        "best_POI":3.236
     },
     {
         "source":23,
         "target":5,
-        "best_scenery":-1.06,
-        "best_POI":0.736
+        "best_scenery":5.819,
+        "best_POI":2.999
     },
     {
         "source":23,
         "target":6,
-        "best_scenery":-1.0514,
-        "best_POI":0.668
+        "best_scenery":6.186,
+        "best_POI":3.331
     },
     {
         "source":23,
         "target":7,
-        "best_scenery":-1.5911,
-        "best_POI":0.826
+        "best_scenery":6.349,
+        "best_POI":3.444
     },
     {
         "source":23,
         "target":8,
-        "best_scenery":-1.5166,
-        "best_POI":0.523
+        "best_scenery":6.189,
+        "best_POI":3.182
     },
     {
         "source":23,
         "target":9,
-        "best_scenery":-1.5165,
-        "best_POI":1.021
+        "best_scenery":5.71,
+        "best_POI":3.272
     },
     {
         "source":23,
         "target":10,
-        "best_scenery":-0.4617,
-        "best_POI":0.723
+        "best_scenery":6.222,
+        "best_POI":3.326
     },
     {
         "source":23,
         "target":11,
-        "best_scenery":-1.9976,
-        "best_POI":0.726
+        "best_scenery":6.107,
+        "best_POI":3.526
     },
     {
         "source":23,
         "target":12,
-        "best_scenery":-2.0014,
-        "best_POI":0.635
+        "best_scenery":6.218,
+        "best_POI":3.478
     },
     {
         "source":23,
         "target":13,
-        "best_scenery":-1.4747,
-        "best_POI":0.53
+        "best_scenery":6.109,
+        "best_POI":3.393
     },
     {
         "source":23,
         "target":14,
-        "best_scenery":-1.5685,
-        "best_POI":0.54
+        "best_scenery":5.934,
+        "best_POI":2.975
     },
     {
         "source":23,
         "target":15,
-        "best_scenery":-0.9957,
-        "best_POI":0.06
+        "best_scenery":6.519,
+        "best_POI":3.353
     },
     {
         "source":23,
         "target":16,
-        "best_scenery":-1.5783,
-        "best_POI":0.784
+        "best_scenery":5.654,
+        "best_POI":3.076
     },
     {
         "source":23,
         "target":17,
-        "best_scenery":-0.9161,
-        "best_POI":0.262
+        "best_scenery":6.237,
+        "best_POI":3.682
     },
     {
         "source":23,
         "target":18,
-        "best_scenery":-1.0057,
-        "best_POI":0.657
+        "best_scenery":6.302,
+        "best_POI":3.457
     },
     {
         "source":23,
         "target":19,
-        "best_scenery":-0.543,
-        "best_POI":0.968
+        "best_scenery":6.242,
+        "best_POI":3.431
     },
     {
         "source":23,
         "target":20,
-        "best_scenery":-0.5162,
-        "best_POI":0.936
+        "best_scenery":6.767,
+        "best_POI":3.399
     },
     {
         "source":23,
         "target":21,
-        "best_scenery":-1.5378,
-        "best_POI":0.849
+        "best_scenery":6.182,
+        "best_POI":3.849
     },
     {
         "source":23,
         "target":22,
-        "best_scenery":-0.9902,
-        "best_POI":0.218
+        "best_scenery":6.227,
+        "best_POI":3.218
     },
     {
         "source":24,
         "target":0,
-        "best_scenery":-1.4908,
-        "best_POI":0.136
+        "best_scenery":5.935,
+        "best_POI":2.968
     },
     {
         "source":24,
         "target":1,
-        "best_scenery":-1.017,
-        "best_POI":0.074
+        "best_scenery":6.467,
+        "best_POI":3.381
     },
     {
         "source":24,
         "target":2,
-        "best_scenery":-1.0005,
-        "best_POI":0.028
+        "best_scenery":6.41,
+        "best_POI":3.789
     },
     {
         "source":24,
         "target":3,
-        "best_scenery":-1.0111,
-        "best_POI":0.404
+        "best_scenery":6.516,
+        "best_POI":3.384
     },
     {
         "source":24,
         "target":4,
-        "best_scenery":-0.5327,
-        "best_POI":0.316
+        "best_scenery":6.021,
+        "best_POI":3.497
     },
     {
         "source":24,
         "target":5,
-        "best_scenery":-1.0116,
-        "best_POI":0.475
+        "best_scenery":6.24,
+        "best_POI":3.095
     },
     {
         "source":24,
         "target":6,
-        "best_scenery":-1.0103,
-        "best_POI":0.315
+        "best_scenery":6.4,
+        "best_POI":3.251
     },
     {
         "source":24,
         "target":7,
-        "best_scenery":-0.483,
-        "best_POI":0.241
+        "best_scenery":6.435,
+        "best_POI":3.421
     },
     {
         "source":24,
         "target":8,
-        "best_scenery":-0.5271,
-        "best_POI":0.262
+        "best_scenery":6.595,
+        "best_POI":3.353
     },
     {
         "source":24,
         "target":9,
-        "best_scenery":-1.4646,
-        "best_POI":0.436
+        "best_scenery":6.296,
+        "best_POI":3.217
     },
     {
         "source":24,
         "target":10,
-        "best_scenery":-1.0227,
-        "best_POI":0.327
+        "best_scenery":6.383,
+        "best_POI":3.367
     },
     {
         "source":24,
         "target":11,
-        "best_scenery":-1.0288,
-        "best_POI":0.293
+        "best_scenery":6.342,
+        "best_POI":3.408
     },
     {
         "source":24,
         "target":12,
-        "best_scenery":-2.0026,
-        "best_POI":0.455
+        "best_scenery":6.017,
+        "best_POI":3.612
     },
     {
         "source":24,
         "target":13,
-        "best_scenery":-0.5152,
-        "best_POI":0.005
+        "best_scenery":5.792,
+        "best_POI":3.115
     },
     {
         "source":24,
         "target":14,
-        "best_scenery":-1.5201,
-        "best_POI":0.332
+        "best_scenery":6.355,
+        "best_POI":3.118
     },
     {
         "source":24,
         "target":15,
-        "best_scenery":-0.9942,
-        "best_POI":-0.328
+        "best_scenery":6.202,
+        "best_POI":3.53
     },
     {
         "source":24,
         "target":16,
-        "best_scenery":-1.5035,
-        "best_POI":0.199
+        "best_scenery":5.889,
+        "best_POI":2.958
     },
     {
         "source":24,
         "target":17,
-        "best_scenery":-1.0163,
-        "best_POI":0.001
+        "best_scenery":6.319,
+        "best_POI":3.859
     },
     {
         "source":24,
         "target":18,
-        "best_scenery":-1.5667,
-        "best_POI":0.35
+        "best_scenery":5.998,
+        "best_POI":3.418
     },
     {
         "source":24,
         "target":19,
-        "best_scenery":-1.0536,
-        "best_POI":0.383
+        "best_scenery":6.108,
+        "best_POI":3.351
     },
     {
         "source":24,
         "target":20,
-        "best_scenery":-1.0693,
-        "best_POI":0.675
+        "best_scenery":6.424,
+        "best_POI":3.495
     },
     {
         "source":24,
         "target":21,
-        "best_scenery":-1.5413,
-        "best_POI":0.416
+        "best_scenery":6.417,
+        "best_POI":3.731
     },
     {
         "source":24,
         "target":22,
-        "best_scenery":-0.5309,
-        "best_POI":-0.066
+        "best_scenery":6.914,
+        "best_POI":3.439
     },
     {
         "source":24,
         "target":23,
-        "best_scenery":-1.4844,
-        "best_POI":0.525
+        "best_scenery":5.979,
+        "best_POI":3.545
     },
     {
         "source":25,
         "target":0,
-        "best_scenery":-1.0554,
-        "best_POI":0.21
+        "best_scenery":6.188,
+        "best_POI":3.065
     },
     {
         "source":25,
         "target":1,
-        "best_scenery":-0.5084,
-        "best_POI":0.148
+        "best_scenery":6.689,
+        "best_POI":3.121
     },
     {
         "source":25,
         "target":2,
-        "best_scenery":-2.4699,
-        "best_POI":0.102
+        "best_scenery":6.57,
+        "best_POI":3.741
     },
     {
         "source":25,
         "target":3,
-        "best_scenery":-0.9871,
-        "best_POI":0.537
+        "best_scenery":6.591,
+        "best_POI":3.232
     },
     {
         "source":25,
         "target":4,
-        "best_scenery":-0.988,
-        "best_POI":0.39
+        "best_scenery":6.015,
+        "best_POI":3.386
     },
     {
         "source":25,
         "target":5,
-        "best_scenery":-1.4795,
-        "best_POI":0.549
+        "best_scenery":6.596,
+        "best_POI":3.021
     },
     {
         "source":25,
         "target":6,
-        "best_scenery":-0.9755,
-        "best_POI":0.389
+        "best_scenery":6.475,
+        "best_POI":3.389
     },
     {
         "source":25,
         "target":7,
-        "best_scenery":-1.5152,
-        "best_POI":0.374
+        "best_scenery":6.721,
+        "best_POI":3.269
     },
     {
         "source":25,
         "target":8,
-        "best_scenery":-1.964,
-        "best_POI":0.336
+        "best_scenery":6.951,
+        "best_POI":3.417
     },
     {
         "source":25,
         "target":9,
-        "best_scenery":-1.4406,
-        "best_POI":0.569
+        "best_scenery":6.371,
+        "best_POI":3.5
     },
     {
         "source":25,
         "target":10,
-        "best_scenery":-1.4718,
-        "best_POI":0.401
+        "best_scenery":6.394,
+        "best_POI":3.381
     },
     {
         "source":25,
         "target":11,
-        "best_scenery":-1.5634,
-        "best_POI":0.578
+        "best_scenery":6.2,
+        "best_POI":3.576
     },
     {
         "source":25,
         "target":12,
-        "best_scenery":-1.5672,
-        "best_POI":0.703
+        "best_scenery":6.274,
+        "best_POI":3.709
     },
     {
         "source":25,
         "target":13,
-        "best_scenery":-1.0102,
-        "best_POI":0.078
+        "best_scenery":6.507,
+        "best_POI":3.324
     },
     {
         "source":25,
         "target":14,
-        "best_scenery":-1.988,
-        "best_POI":0.58
+        "best_scenery":6.711,
+        "best_POI":3.186
     },
     {
         "source":25,
         "target":15,
-        "best_scenery":-1.4892,
-        "best_POI":-0.179
+        "best_scenery":6.566,
+        "best_POI":3.627
     },
     {
         "source":25,
         "target":16,
-        "best_scenery":-1.5024,
-        "best_POI":0.332
+        "best_scenery":5.799,
+        "best_POI":3.126
     },
     {
         "source":25,
         "target":17,
-        "best_scenery":-1.4716,
-        "best_POI":0.15
+        "best_scenery":6.33,
+        "best_POI":3.956
     },
     {
         "source":25,
         "target":18,
-        "best_scenery":-1.5393,
-        "best_POI":0.424
+        "best_scenery":6.509,
+        "best_POI":3.515
     },
     {
         "source":25,
         "target":19,
-        "best_scenery":-0.4671,
-        "best_POI":0.516
+        "best_scenery":6.276,
+        "best_POI":3.489
     },
     {
         "source":25,
         "target":20,
-        "best_scenery":-1.5246,
-        "best_POI":0.749
+        "best_scenery":6.372,
+        "best_POI":3.421
     },
     {
         "source":25,
         "target":21,
-        "best_scenery":-2.0714,
-        "best_POI":0.701
+        "best_scenery":6.388,
+        "best_POI":3.899
     },
     {
         "source":25,
         "target":22,
-        "best_scenery":-2.0003,
-        "best_POI":0.083
+        "best_scenery":6.664,
+        "best_POI":3.489
     },
     {
         "source":25,
         "target":23,
-        "best_scenery":-1.0101,
-        "best_POI":0.599
+        "best_scenery":6.137,
+        "best_POI":3.471
     },
     {
         "source":25,
         "target":24,
-        "best_scenery":-1.5207,
-        "best_POI":0.073
+        "best_scenery":6.351,
+        "best_POI":3.295
     },
     {
         "source":26,
         "target":0,
-        "best_scenery":-1.4866,
-        "best_POI":-0.32
+        "best_scenery":7.025,
+        "best_POI":3.355
     },
     {
         "source":26,
         "target":1,
-        "best_scenery":-2.0336,
-        "best_POI":-0.254
+        "best_scenery":7.123,
+        "best_POI":3.654
     },
     {
         "source":26,
         "target":2,
-        "best_scenery":-2.3802,
-        "best_POI":-0.428
+        "best_scenery":6.818,
+        "best_POI":4.024
     },
     {
         "source":26,
         "target":3,
-        "best_scenery":-1.9834,
-        "best_POI":0.137
+        "best_scenery":7.064,
+        "best_POI":3.616
     },
     {
         "source":26,
         "target":4,
-        "best_scenery":-0.9487,
-        "best_POI":-0.059
+        "best_scenery":7.118,
+        "best_POI":3.773
     },
     {
         "source":26,
         "target":5,
-        "best_scenery":-1.9658,
-        "best_POI":0.019
+        "best_scenery":6.788,
+        "best_POI":3.33
     },
     {
         "source":26,
         "target":6,
-        "best_scenery":-1.9718,
-        "best_POI":-0.141
+        "best_scenery":7.273,
+        "best_POI":3.577
     },
     {
         "source":26,
         "target":7,
-        "best_scenery":-1.9644,
-        "best_POI":-0.026
+        "best_scenery":6.983,
+        "best_POI":3.72
     },
     {
         "source":26,
         "target":8,
-        "best_scenery":-2.0085,
-        "best_POI":-0.194
+        "best_scenery":7.143,
+        "best_POI":3.676
     },
     {
         "source":26,
         "target":9,
-        "best_scenery":-2.4369,
-        "best_POI":0.169
+        "best_scenery":6.844,
+        "best_POI":3.494
     },
     {
         "source":26,
         "target":10,
-        "best_scenery":-0.4587,
-        "best_POI":-0.654
+        "best_scenery":0.613,
+        "best_POI":0.454
     },
     {
         "source":26,
         "target":11,
-        "best_scenery":-1.9946,
-        "best_POI":0.135
+        "best_scenery":6.856,
+        "best_POI":3.843
     },
     {
         "source":26,
         "target":12,
-        "best_scenery":-1.9984,
-        "best_POI":0.26
+        "best_scenery":7.107,
+        "best_POI":3.968
     },
     {
         "source":26,
         "target":13,
-        "best_scenery":-1.9966,
-        "best_POI":-0.322
+        "best_scenery":7.305,
+        "best_POI":3.757
     },
     {
         "source":26,
         "target":14,
-        "best_scenery":-2.4743,
-        "best_POI":0.137
+        "best_scenery":6.903,
+        "best_POI":3.445
     },
     {
         "source":26,
         "target":15,
-        "best_scenery":-1.9161,
-        "best_POI":-0.622
+        "best_scenery":7.715,
+        "best_POI":3.886
     },
     {
         "source":26,
         "target":16,
-        "best_scenery":-2.4693,
-        "best_POI":-0.068
+        "best_scenery":6.808,
+        "best_POI":3.393
     },
     {
         "source":26,
         "target":17,
-        "best_scenery":-1.4323,
-        "best_POI":-0.293
+        "best_scenery":6.986,
+        "best_POI":4.215
     },
     {
         "source":26,
         "target":18,
-        "best_scenery":-1.0027,
-        "best_POI":-0.106
+        "best_scenery":7.307,
+        "best_POI":3.769
     },
     {
         "source":26,
         "target":19,
-        "best_scenery":-1.4634,
-        "best_POI":0.116
+        "best_scenery":7.438,
+        "best_POI":3.624
     },
     {
         "source":26,
         "target":20,
-        "best_scenery":-1.4366,
-        "best_POI":0.219
+        "best_scenery":7.595,
+        "best_POI":3.73
     },
     {
         "source":26,
         "target":21,
-        "best_scenery":-1.5348,
-        "best_POI":0.258
+        "best_scenery":7.186,
+        "best_POI":4.166
     },
     {
         "source":26,
         "target":22,
-        "best_scenery":-1.9106,
-        "best_POI":-0.36
+        "best_scenery":7.12,
+        "best_POI":3.748
     },
     {
         "source":26,
         "target":23,
-        "best_scenery":-0.9204,
-        "best_POI":0.069
+        "best_scenery":6.835,
+        "best_POI":3.78
     },
     {
         "source":26,
         "target":24,
-        "best_scenery":-1.4814,
-        "best_POI":-0.327
+        "best_scenery":6.996,
+        "best_POI":3.821
     },
     {
         "source":26,
         "target":25,
-        "best_scenery":-1.9305,
-        "best_POI":-0.253
+        "best_scenery":7.007,
+        "best_POI":3.835
     },
     {
         "source":27,
         "target":0,
-        "best_scenery":-1.0524,
-        "best_POI":0.875
+        "best_scenery":6.281,
+        "best_POI":3.014
     },
     {
         "source":27,
         "target":1,
-        "best_scenery":-1.5994,
-        "best_POI":0.813
+        "best_scenery":6.596,
+        "best_POI":3.437
     },
     {
         "source":27,
         "target":2,
-        "best_scenery":-1.0301,
-        "best_POI":0.528
+        "best_scenery":6.324,
+        "best_POI":3.928
     },
     {
         "source":27,
         "target":3,
-        "best_scenery":-2.5504,
-        "best_POI":1.028
+        "best_scenery":6.189,
+        "best_POI":3.399
     },
     {
         "source":27,
         "target":4,
-        "best_scenery":-1.547,
-        "best_POI":0.953
+        "best_scenery":5.942,
+        "best_POI":3.553
     },
     {
         "source":27,
         "target":5,
-        "best_scenery":-1.0516,
-        "best_POI":0.428
+        "best_scenery":6.273,
+        "best_POI":2.621
     },
     {
         "source":27,
         "target":6,
-        "best_scenery":-1.5556,
-        "best_POI":0.707
+        "best_scenery":6.529,
+        "best_POI":3.36
     },
     {
         "source":27,
         "target":7,
-        "best_scenery":-2.0783,
-        "best_POI":0.865
+        "best_scenery":6.494,
+        "best_POI":3.436
     },
     {
         "source":27,
         "target":8,
-        "best_scenery":-1.0682,
-        "best_POI":0.215
+        "best_scenery":6.628,
+        "best_POI":3.492
     },
     {
         "source":27,
         "target":9,
-        "best_scenery":-2.5284,
-        "best_POI":1.06
+        "best_scenery":5.969,
+        "best_POI":3.231
     },
     {
         "source":27,
         "target":10,
-        "best_scenery":-1.9883,
-        "best_POI":1.023
+        "best_scenery":6.304,
+        "best_POI":3.423
     },
     {
         "source":27,
         "target":11,
-        "best_scenery":-1.5604,
-        "best_POI":0.73
+        "best_scenery":6.366,
+        "best_POI":3.23
     },
     {
         "source":27,
         "target":12,
-        "best_scenery":-0.5406,
-        "best_POI":0.895
+        "best_scenery":6.363,
+        "best_POI":3.234
     },
     {
         "source":27,
         "target":13,
-        "best_scenery":-2.0507,
-        "best_POI":0.569
+        "best_scenery":5.929,
+        "best_POI":3.54
     },
     {
         "source":27,
         "target":14,
-        "best_scenery":-0.5431,
-        "best_POI":0.554
+        "best_scenery":6.388,
+        "best_POI":3.017
     },
     {
         "source":27,
         "target":15,
-        "best_scenery":-2.5223,
-        "best_POI":0.132
+        "best_scenery":6.339,
+        "best_POI":3.338
     },
     {
         "source":27,
         "target":16,
-        "best_scenery":-2.0351,
-        "best_POI":0.823
+        "best_scenery":5.913,
+        "best_POI":2.794
     },
     {
         "source":27,
         "target":17,
-        "best_scenery":-2.0306,
-        "best_POI":0.311
+        "best_scenery":6.24,
+        "best_POI":3.667
     },
     {
         "source":27,
         "target":18,
-        "best_scenery":-1.5363,
-        "best_POI":1.089
+        "best_scenery":6.447,
+        "best_POI":3.428
     },
     {
         "source":27,
         "target":19,
-        "best_scenery":-2.064,
-        "best_POI":1.007
+        "best_scenery":6.413,
+        "best_POI":3.407
     },
     {
         "source":27,
         "target":20,
-        "best_scenery":-1.0104,
-        "best_POI":0.628
+        "best_scenery":6.384,
+        "best_POI":3.079
     },
     {
         "source":27,
         "target":21,
-        "best_scenery":-2.0684,
-        "best_POI":0.853
+        "best_scenery":6.441,
+        "best_POI":3.553
     },
     {
         "source":27,
         "target":22,
-        "best_scenery":-1.4997,
-        "best_POI":0.378
+        "best_scenery":6.666,
+        "best_POI":3.578
     },
     {
         "source":27,
         "target":23,
-        "best_scenery":-1.5266,
-        "best_POI":0.744
+        "best_scenery":6.089,
+        "best_POI":3.387
     },
     {
         "source":27,
         "target":24,
-        "best_scenery":-1.5953,
-        "best_POI":0.564
+        "best_scenery":6.124,
+        "best_POI":3.521
     },
     {
         "source":27,
         "target":25,
-        "best_scenery":-2.1078,
-        "best_POI":0.812
+        "best_scenery":6.48,
+        "best_POI":3.618
     },
     {
         "source":27,
         "target":26,
-        "best_scenery":-2.447,
-        "best_POI":0.369
+        "best_scenery":6.917,
+        "best_POI":3.877
     },
     {
         "source":28,
         "target":0,
-        "best_scenery":-1.4928,
-        "best_POI":0.553
+        "best_scenery":5.996,
+        "best_POI":3.018
     },
     {
         "source":28,
         "target":1,
-        "best_scenery":-2.0398,
-        "best_POI":0.491
+        "best_scenery":6.001,
+        "best_POI":3.348
     },
     {
         "source":28,
         "target":2,
-        "best_scenery":-0.491,
-        "best_POI":0.206
+        "best_scenery":6.515,
+        "best_POI":3.806
     },
     {
         "source":28,
         "target":3,
-        "best_scenery":-2.0488,
-        "best_POI":0.805
+        "best_scenery":6.008,
+        "best_POI":3.277
     },
     {
         "source":28,
         "target":4,
-        "best_scenery":-1.0079,
-        "best_POI":0.631
+        "best_scenery":6.133,
+        "best_POI":3.431
     },
     {
         "source":28,
         "target":5,
-        "best_scenery":-1.0136,
-        "best_POI":0.252
+        "best_scenery":6.013,
+        "best_POI":2.886
     },
     {
         "source":28,
         "target":6,
-        "best_scenery":-1.5176,
-        "best_POI":0.484
+        "best_scenery":5.92,
+        "best_POI":3.238
     },
     {
         "source":28,
         "target":7,
-        "best_scenery":-1.5392,
-        "best_POI":0.642
+        "best_scenery":6.209,
+        "best_POI":3.331
     },
     {
         "source":28,
         "target":8,
-        "best_scenery":-0.5291,
-        "best_POI":0.039
+        "best_scenery":6.368,
+        "best_POI":3.069
     },
     {
         "source":28,
         "target":9,
-        "best_scenery":-2.5023,
-        "best_POI":0.837
+        "best_scenery":5.788,
+        "best_POI":3.188
     },
     {
         "source":28,
         "target":10,
-        "best_scenery":-1.4492,
-        "best_POI":0.701
+        "best_scenery":6.495,
+        "best_POI":3.301
     },
     {
         "source":28,
         "target":11,
-        "best_scenery":-2.0008,
-        "best_POI":0.542
+        "best_scenery":5.894,
+        "best_POI":3.537
     },
     {
         "source":28,
         "target":12,
-        "best_scenery":-1.0797,
-        "best_POI":0.573
+        "best_scenery":6.078,
+        "best_POI":3.662
     },
     {
         "source":28,
         "target":13,
-        "best_scenery":-1.5714,
-        "best_POI":0.346
+        "best_scenery":5.809,
+        "best_POI":3.418
     },
     {
         "source":28,
         "target":14,
-        "best_scenery":-1.0822,
-        "best_POI":0.232
+        "best_scenery":6.128,
+        "best_POI":3.139
     },
     {
         "source":28,
         "target":15,
-        "best_scenery":-1.9832,
-        "best_POI":-0.124
+        "best_scenery":6.219,
+        "best_POI":3.216
     },
     {
         "source":28,
         "target":16,
-        "best_scenery":-2.4755,
-        "best_POI":0.6
+        "best_scenery":5.441,
+        "best_POI":3.087
     },
     {
         "source":28,
         "target":17,
-        "best_scenery":-1.4915,
-        "best_POI":0.038
+        "best_scenery":6.431,
+        "best_POI":3.545
     },
     {
         "source":28,
         "target":18,
-        "best_scenery":-1.9767,
-        "best_POI":0.767
+        "best_scenery":6.162,
+        "best_POI":3.347
     },
     {
         "source":28,
         "target":19,
-        "best_scenery":-1.5288,
-        "best_POI":0.784
+        "best_scenery":5.942,
+        "best_POI":3.318
     },
     {
         "source":28,
         "target":20,
-        "best_scenery":-0.4713,
-        "best_POI":0.306
+        "best_scenery":6.318,
+        "best_POI":3.286
     },
     {
         "source":28,
         "target":21,
-        "best_scenery":-2.5088,
-        "best_POI":0.665
+        "best_scenery":6.041,
+        "best_POI":3.86
     },
     {
         "source":28,
         "target":22,
-        "best_scenery":-0.9606,
-        "best_POI":0.056
+        "best_scenery":6.011,
+        "best_POI":3.456
     },
     {
         "source":28,
         "target":23,
-        "best_scenery":-0.9875,
-        "best_POI":0.602
+        "best_scenery":6.28,
+        "best_POI":3.222
     },
     {
         "source":28,
         "target":24,
-        "best_scenery":-1.0562,
-        "best_POI":0.341
+        "best_scenery":6.12,
+        "best_POI":3.432
     },
     {
         "source":28,
         "target":25,
-        "best_scenery":-1.9959,
-        "best_POI":0.49
+        "best_scenery":5.885,
+        "best_POI":3.496
     },
     {
         "source":28,
         "target":26,
-        "best_scenery":-1.9079,
-        "best_POI":0.047
+        "best_scenery":7.108,
+        "best_POI":3.755
     },
     {
         "source":28,
         "target":27,
-        "best_scenery":-0.5391,
-        "best_POI":0.294
+        "best_scenery":5.897,
+        "best_POI":3.571
     },
     {
         "source":29,
         "target":0,
-        "best_scenery":-1.9474,
-        "best_POI":0.138
+        "best_scenery":6.294,
+        "best_POI":3.077
     },
     {
         "source":29,
         "target":1,
-        "best_scenery":-1.5187,
-        "best_POI":0.076
+        "best_scenery":6.392,
+        "best_POI":3.5
     },
     {
         "source":29,
         "target":2,
-        "best_scenery":-1.002,
-        "best_POI":0.142
+        "best_scenery":6.031,
+        "best_POI":3.276
     },
     {
         "source":29,
         "target":3,
-        "best_scenery":-1.5208,
-        "best_POI":0.39
+        "best_scenery":6.333,
+        "best_POI":3.462
     },
     {
         "source":29,
         "target":4,
-        "best_scenery":-0.9419,
-        "best_POI":0.216
+        "best_scenery":5.824,
+        "best_POI":3.616
     },
     {
         "source":29,
         "target":5,
-        "best_scenery":-1.5178,
-        "best_POI":0.176
+        "best_scenery":6.057,
+        "best_POI":2.976
     },
     {
         "source":29,
         "target":6,
-        "best_scenery":-1.5092,
-        "best_POI":0.069
+        "best_scenery":6.542,
+        "best_POI":3.423
     },
     {
         "source":29,
         "target":7,
-        "best_scenery":-1.5463,
-        "best_POI":0.227
+        "best_scenery":6.252,
+        "best_POI":3.499
     },
     {
         "source":29,
         "target":8,
-        "best_scenery":-1.5904,
-        "best_POI":-0.037
+        "best_scenery":6.412,
+        "best_POI":3.221
     },
     {
         "source":29,
         "target":9,
-        "best_scenery":-1.9743,
-        "best_POI":0.422
+        "best_scenery":6.113,
+        "best_POI":3.294
     },
     {
         "source":29,
         "target":10,
-        "best_scenery":-0.9195,
-        "best_POI":0.286
+        "best_scenery":6.398,
+        "best_POI":3.486
     },
     {
         "source":29,
         "target":11,
-        "best_scenery":-2.0921,
-        "best_POI":0.152
+        "best_scenery":6.204,
+        "best_POI":3.527
     },
     {
         "source":29,
         "target":12,
-        "best_scenery":-2.4592,
-        "best_POI":0.277
+        "best_scenery":6.376,
+        "best_POI":3.483
     },
     {
         "source":29,
         "target":13,
-        "best_scenery":-1.0169,
-        "best_POI":-0.069
+        "best_scenery":6.574,
+        "best_POI":3.603
     },
     {
         "source":29,
         "target":14,
-        "best_scenery":-2.0263,
-        "best_POI":0.154
+        "best_scenery":6.172,
+        "best_POI":3.022
     },
     {
         "source":29,
         "target":15,
-        "best_scenery":-0.5379,
-        "best_POI":-0.254
+        "best_scenery":6.984,
+        "best_POI":3.333
     },
     {
         "source":29,
         "target":16,
-        "best_scenery":-2.0361,
-        "best_POI":0.185
+        "best_scenery":6.077,
+        "best_POI":3.077
     },
     {
         "source":29,
         "target":17,
-        "best_scenery":-0.4583,
-        "best_POI":0.075
+        "best_scenery":6.188,
+        "best_POI":3.174
     },
     {
         "source":29,
         "target":18,
-        "best_scenery":-1.4635,
-        "best_POI":0.352
+        "best_scenery":6.576,
+        "best_POI":3.491
     },
     {
         "source":29,
         "target":19,
-        "best_scenery":-1.0008,
-        "best_POI":0.369
+        "best_scenery":6.707,
+        "best_POI":3.47
     },
     {
         "source":29,
         "target":20,
-        "best_scenery":-0.974,
-        "best_POI":0.376
+        "best_scenery":6.439,
+        "best_POI":3.103
     },
     {
         "source":29,
         "target":21,
-        "best_scenery":-1.9956,
-        "best_POI":0.275
+        "best_scenery":6.455,
+        "best_POI":3.85
     },
     {
         "source":29,
         "target":22,
-        "best_scenery":-0.5324,
-        "best_POI":-0.008
+        "best_scenery":6.309,
+        "best_POI":3.257
     },
     {
         "source":29,
         "target":23,
-        "best_scenery":-0.4578,
-        "best_POI":0.226
+        "best_scenery":5.832,
+        "best_POI":3.407
     },
     {
         "source":29,
         "target":24,
-        "best_scenery":-1.0633,
-        "best_POI":-0.074
+        "best_scenery":5.702,
+        "best_POI":3.584
     },
     {
         "source":29,
         "target":25,
-        "best_scenery":-1.4679,
-        "best_POI":0.075
+        "best_scenery":6.276,
+        "best_POI":3.681
     },
     {
         "source":29,
         "target":26,
-        "best_scenery":-1.3782,
-        "best_POI":-0.368
+        "best_scenery":7.011,
+        "best_POI":3.94
     },
     {
         "source":29,
         "target":27,
-        "best_scenery":-1.9844,
-        "best_POI":0.386
+        "best_scenery":6.17,
+        "best_POI":3.392
     },
     {
         "source":29,
         "target":28,
-        "best_scenery":-1.4453,
-        "best_POI":0.064
+        "best_scenery":5.952,
+        "best_POI":3.27
     }
 ]
