@@ -1,0 +1,646 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "x": -140.61452,
+      "y": 16.9397
+    },
+    {
+      "id": 1,
+      "x": -78.31294,
+      "y": 19.288128
+    },
+    {
+      "id": 2,
+      "x": 96.4587,
+      "y": 148.12817
+    },
+    {
+      "id": 3,
+      "x": -48.673695,
+      "y": -161.06712
+    },
+    {
+      "id": 4,
+      "x": 65.31544,
+      "y": -35.670143
+    },
+    {
+      "id": 5,
+      "x": -69.07316,
+      "y": 78.46068
+    },
+    {
+      "id": 6,
+      "x": -20.438597,
+      "y": 44.513657
+    },
+    {
+      "id": 7,
+      "x": -54.897804,
+      "y": -100.28971
+    },
+    {
+      "id": 8,
+      "x": -0.5546606,
+      "y": 104.85988
+    },
+    {
+      "id": 9,
+      "x": -93.2764,
+      "y": -213.35425
+    },
+    {
+      "id": 10,
+      "x": 57.50998,
+      "y": -105.77579
+    },
+    {
+      "id": 11,
+      "x": -119.05564,
+      "y": -105.08502
+    },
+    {
+      "id": 12,
+      "x": -130.80495,
+      "y": 86.46859
+    },
+    {
+      "id": 13,
+      "x": 9.113691,
+      "y": 8.013262
+    },
+    {
+      "id": 14,
+      "x": -38.568024,
+      "y": 130.09424
+    },
+    {
+      "id": 15,
+      "x": 119.98193,
+      "y": 9.02576
+    },
+    {
+      "id": 16,
+      "x": -138.35333,
+      "y": -163.73024
+    },
+    {
+      "id": 17,
+      "x": 164.49225,
+      "y": -35.53007
+    },
+    {
+      "id": 18,
+      "x": -112.11582,
+      "y": -43.396526
+    },
+    {
+      "id": 19,
+      "x": 16.029411,
+      "y": -60.179974
+    },
+    {
+      "id": 20,
+      "x": 82.433136,
+      "y": 81.53283
+    },
+    {
+      "id": 21,
+      "x": -173.2397,
+      "y": -52.10876
+    },
+    {
+      "id": 22,
+      "x": 127.14884,
+      "y": 81.17072
+    },
+    {
+      "id": 23,
+      "x": 114.35521,
+      "y": -69.40414
+    },
+    {
+      "id": 24,
+      "x": 51.581783,
+      "y": 30.500496
+    },
+    {
+      "id": 25,
+      "x": -51.483555,
+      "y": -38.854847
+    },
+    {
+      "id": 26,
+      "x": 94.58823,
+      "y": -153.17865
+    },
+    {
+      "id": 27,
+      "x": -25.607798,
+      "y": 181.27187
+    },
+    {
+      "id": 28,
+      "x": 29.406113,
+      "y": 158.48589
+    },
+    {
+      "id": 29,
+      "x": 171.92674,
+      "y": 27.086575
+    }
+  ],
+  "edges": [
+    {
+      "source": 0,
+      "target": 1,
+      "safety": 0.869,
+      "quality": 6.38,
+      "scenery": -0.27,
+      "distance": 1,
+      "POI": 0.138,
+      "Scenery": 0.05
+    },
+    {
+      "source": 0,
+      "target": 18,
+      "safety": 0.614,
+      "quality": 9.14,
+      "scenery": 0.36100000000000004,
+      "distance": 1,
+      "POI": 0.41400000000000003,
+      "Scenery": 0.05
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "safety": 0.21800000000000003,
+      "quality": 3.66,
+      "scenery": 0.408,
+      "distance": 1,
+      "POI": -0.134,
+      "Scenery": 0.95
+    },
+    {
+      "source": 0,
+      "target": 11,
+      "safety": 0.417,
+      "quality": 8.45,
+      "scenery": 0.12000000000000005,
+      "distance": 1,
+      "POI": 0.345,
+      "Scenery": 0.05
+    },
+    {
+      "source": 0,
+      "target": 12,
+      "safety": 0.962,
+      "quality": 7.2,
+      "scenery": 0.08200000000000002,
+      "distance": 1,
+      "POI": 0.21999999999999997,
+      "Scenery": 0.05
+    },
+    {
+      "source": 1,
+      "target": 13,
+      "safety": 0.343,
+      "quality": 3.79,
+      "scenery": 0.18200000000000005,
+      "distance": 1,
+      "POI": -0.121,
+      "Scenery": 0.05
+    },
+    {
+      "source": 1,
+      "target": 25,
+      "safety": 0.335,
+      "quality": 6.99,
+      "scenery": 0.11600000000000005,
+      "distance": 1,
+      "POI": 0.19900000000000007,
+      "Scenery": 0.05
+    },
+    {
+      "source": 2,
+      "target": 28,
+      "safety": 0.263,
+      "quality": 1.43,
+      "scenery": 0.2900000000000001,
+      "distance": 1,
+      "POI": -0.357,
+      "Scenery": 0.95
+    },
+    {
+      "source": 2,
+      "target": 22,
+      "safety": 0.335,
+      "quality": 8.5,
+      "scenery": 0.504,
+      "distance": 1,
+      "POI": 0.35,
+      "Scenery": 0.05
+    },
+    {
+      "source": 3,
+      "target": 9,
+      "safety": 0.523,
+      "quality": 6.68,
+      "scenery": 0.665,
+      "distance": 1,
+      "POI": 0.16799999999999993,
+      "Scenery": 0.05
+    },
+    {
+      "source": 3,
+      "target": 7,
+      "safety": 1.0,
+      "quality": 5.37,
+      "scenery": -0.08099999999999999,
+      "distance": 1,
+      "POI": 0.03700000000000003,
+      "Scenery": 0.95
+    },
+    {
+      "source": 3,
+      "target": 19,
+      "safety": 0.593,
+      "quality": 6.79,
+      "scenery": 0.0,
+      "distance": 1,
+      "POI": 0.17900000000000005,
+      "Scenery": 0.5
+    },
+    {
+      "source": 3,
+      "target": 16,
+      "safety": 0.6599999999999999,
+      "quality": 7.69,
+      "scenery": 0.04700000000000004,
+      "distance": 1,
+      "POI": 0.269,
+      "Scenery": 0.95
+    },
+    {
+      "source": 4,
+      "target": 10,
+      "safety": 0.08,
+      "quality": 6.3,
+      "scenery": 0.3,
+      "distance": 1,
+      "POI": 0.13,
+      "Scenery": 0.5
+    },
+    {
+      "source": 4,
+      "target": 17,
+      "safety": 0.496,
+      "quality": 0.58,
+      "scenery": 0.36399999999999993,
+      "distance": 1,
+      "POI": -0.442,
+      "Scenery": 0.05
+    },
+    {
+      "source": 4,
+      "target": 24,
+      "safety": 0.211,
+      "quality": 2.74,
+      "scenery": -0.127,
+      "distance": 1,
+      "POI": -0.22599999999999998,
+      "Scenery": 0.5
+    },
+    {
+      "source": 4,
+      "target": 19,
+      "safety": 0.5509999999999999,
+      "quality": 5.25,
+      "scenery": -0.008999999999999952,
+      "distance": 1,
+      "POI": 0.025000000000000022,
+      "Scenery": 0.05
+    },
+    {
+      "source": 4,
+      "target": 20,
+      "safety": 0.825,
+      "quality": 3.41,
+      "scenery": -0.16599999999999998,
+      "distance": 1,
+      "POI": -0.15899999999999997,
+      "Scenery": 0.5
+    },
+    {
+      "source": 5,
+      "target": 14,
+      "safety": 0.549,
+      "quality": 8.96,
+      "scenery": 0.11500000000000005,
+      "distance": 1,
+      "POI": 0.39600000000000013,
+      "Scenery": 0.95
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "safety": 0.653,
+      "quality": 5.4,
+      "scenery": 0.15999999999999998,
+      "distance": 1,
+      "POI": 0.040000000000000036,
+      "Scenery": 0.05
+    },
+    {
+      "source": 5,
+      "target": 20,
+      "safety": 0.181,
+      "quality": 9.0,
+      "scenery": -0.238,
+      "distance": 1,
+      "POI": 0.4,
+      "Scenery": 0.5
+    },
+    {
+      "source": 5,
+      "target": 8,
+      "safety": 0.731,
+      "quality": 4.87,
+      "scenery": 0.35500000000000004,
+      "distance": 1,
+      "POI": -0.013000000000000012,
+      "Scenery": 0.95
+    },
+    {
+      "source": 6,
+      "target": 19,
+      "safety": 0.97,
+      "quality": 4.0,
+      "scenery": 0.11600000000000005,
+      "distance": 1,
+      "POI": -0.09999999999999998,
+      "Scenery": 0.05
+    },
+    {
+      "source": 6,
+      "target": 13,
+      "safety": 0.8710000000000001,
+      "quality": 3.2,
+      "scenery": 0.24900000000000005,
+      "distance": 1,
+      "POI": -0.18,
+      "Scenery": 0.05
+    },
+    {
+      "source": 7,
+      "target": 11,
+      "safety": 0.034,
+      "quality": 1.65,
+      "scenery": -0.258,
+      "distance": 1,
+      "POI": -0.335,
+      "Scenery": 0.95
+    },
+    {
+      "source": 7,
+      "target": 24,
+      "safety": 1.0,
+      "quality": 3.99,
+      "scenery": 0.37000000000000005,
+      "distance": 1,
+      "POI": -0.10099999999999998,
+      "Scenery": 0.95
+    },
+    {
+      "source": 8,
+      "target": 28,
+      "safety": 0.191,
+      "quality": 4.21,
+      "scenery": -0.091,
+      "distance": 1,
+      "POI": -0.07900000000000001,
+      "Scenery": 0.95
+    },
+    {
+      "source": 8,
+      "target": 24,
+      "safety": 0.546,
+      "quality": 1.37,
+      "scenery": -0.07099999999999998,
+      "distance": 1,
+      "POI": -0.363,
+      "Scenery": 0.5
+    },
+    {
+      "source": 9,
+      "target": 16,
+      "safety": 0.74,
+      "quality": 9.37,
+      "scenery": 0.26699999999999996,
+      "distance": 1,
+      "POI": 0.43699999999999994,
+      "Scenery": 0.5
+    },
+    {
+      "source": 10,
+      "target": 26,
+      "safety": 0.369,
+      "quality": 0.46,
+      "scenery": 0.613,
+      "distance": 1,
+      "POI": 0.454,
+      "Scenery": 0.95
+    },
+    {
+      "source": 10,
+      "target": 18,
+      "safety": 0.958,
+      "quality": 6.34,
+      "scenery": -0.24,
+      "distance": 1,
+      "POI": 0.134,
+      "Scenery": 0.95
+    },
+    {
+      "source": 10,
+      "target": 23,
+      "safety": 0.05500000000000001,
+      "quality": 5.02,
+      "scenery": 0.583,
+      "distance": 1,
+      "POI": 0.0020000000000000018,
+      "Scenery": 0.95
+    },
+    {
+      "source": 11,
+      "target": 16,
+      "safety": 0.505,
+      "quality": 9.5,
+      "scenery": 0.453,
+      "distance": 1,
+      "POI": 0.44999999999999996,
+      "Scenery": 0.05
+    },
+    {
+      "source": 11,
+      "target": 21,
+      "safety": 0.176,
+      "quality": 8.23,
+      "scenery": 0.07500000000000001,
+      "distance": 1,
+      "POI": 0.32300000000000006,
+      "Scenery": 0.05
+    },
+    {
+      "source": 12,
+      "target": 27,
+      "safety": 0.46699999999999997,
+      "quality": 5.91,
+      "scenery": -0.206,
+      "distance": 1,
+      "POI": 0.09099999999999997,
+      "Scenery": 0.05
+    },
+    {
+      "source": 13,
+      "target": 15,
+      "safety": 0.615,
+      "quality": 2.3,
+      "scenery": 0.41,
+      "distance": 1,
+      "POI": -0.27,
+      "Scenery": 0.05
+    },
+    {
+      "source": 13,
+      "target": 24,
+      "safety": 0.244,
+      "quality": 7.05,
+      "scenery": 0.04799999999999999,
+      "distance": 1,
+      "POI": 0.20499999999999996,
+      "Scenery": 0.5
+    },
+    {
+      "source": 14,
+      "target": 27,
+      "safety": 0.769,
+      "quality": 9.32,
+      "scenery": -0.23099999999999998,
+      "distance": 1,
+      "POI": 0.43200000000000005,
+      "Scenery": 0.05
+    },
+    {
+      "source": 15,
+      "target": 29,
+      "safety": 0.199,
+      "quality": 4.46,
+      "scenery": -0.179,
+      "distance": 1,
+      "POI": -0.05399999999999999,
+      "Scenery": 0.5
+    },
+    {
+      "source": 17,
+      "target": 29,
+      "safety": 0.04,
+      "quality": 7.75,
+      "scenery": 0.617,
+      "distance": 1,
+      "POI": 0.275,
+      "Scenery": 0.95
+    },
+    {
+      "source": 18,
+      "target": 21,
+      "safety": 0.341,
+      "quality": 0.72,
+      "scenery": -0.121,
+      "distance": 1,
+      "POI": -0.428,
+      "Scenery": 0.05
+    },
+    {
+      "source": 19,
+      "target": 25,
+      "safety": 0.11000000000000001,
+      "quality": 3.31,
+      "scenery": 0.5289999999999999,
+      "distance": 1,
+      "POI": -0.16899999999999998,
+      "Scenery": 0.05
+    },
+    {
+      "source": 19,
+      "target": 23,
+      "safety": 0.04,
+      "quality": 5.18,
+      "scenery": -0.22999999999999998,
+      "distance": 1,
+      "POI": 0.018000000000000016,
+      "Scenery": 0.95
+    },
+    {
+      "source": 20,
+      "target": 28,
+      "safety": 0.917,
+      "quality": 3.66,
+      "scenery": 0.48700000000000004,
+      "distance": 1,
+      "POI": -0.134,
+      "Scenery": 0.5
+    },
+    {
+      "source": 20,
+      "target": 23,
+      "safety": 0.8720000000000001,
+      "quality": 5.5,
+      "scenery": 0.03799999999999998,
+      "distance": 1,
+      "POI": 0.050000000000000044,
+      "Scenery": 0.05
+    },
+    {
+      "source": 22,
+      "target": 29,
+      "safety": 0.391,
+      "quality": 6.92,
+      "scenery": -0.124,
+      "distance": 1,
+      "POI": 0.19199999999999995,
+      "Scenery": 0.5
+    },
+    {
+      "source": 22,
+      "target": 24,
+      "safety": 1.0,
+      "quality": 1.79,
+      "scenery": -0.10899999999999999,
+      "distance": 1,
+      "POI": -0.321,
+      "Scenery": 0.95
+    },
+    {
+      "source": 23,
+      "target": 29,
+      "safety": 0.739,
+      "quality": 0.61,
+      "scenery": 0.6220000000000001,
+      "distance": 1,
+      "POI": -0.439,
+      "Scenery": 0.05
+    },
+    {
+      "source": 27,
+      "target": 28,
+      "safety": 0.161,
+      "quality": 3.78,
+      "scenery": -0.19099999999999998,
+      "distance": 1,
+      "POI": -0.122,
+      "Scenery": 0.5
+    }
+  ]
+}
