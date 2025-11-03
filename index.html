@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sigma 30-City Graph</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/1.2.1/sigma.min.js"></script>
+  <style>
+    #sigma-container {
+      width: 65%;
+      max-width: 1600px;
+      height: 600px;
+      border:2px solid #999;
+      border-radius:8px;
+    }
+
+#banner img {
+  width: 100%;    /* span full width */
+  height: auto;   /* keep aspect ratio */
+  max-height: 200px; /* optional, scales down if very tall */
+  display: block;
+}
+  </style>
+</head>
+<body>
+
+    <!-- Banner at the top -->
+    <div id="banner" style="width:100vw; text-align:center; margin-bottom:5px;">
+      <img src="https://raw.githubusercontent.com/ahmadzr8/Test_Datasets/refs/heads/main/Screenshot%20from%202025-10-23%2022-50-521.png"
+        alt="Banner">
+    </div>
+
+    <!-- Main content -->
+<div id="main-wrapper" style="display:flex; align-items:flex-start;">
+
+  <!-- LEFT: Graph -->
+  <div id="sigma-container"></div>
+
+  <!-- RIGHT: Route + Training -->
+  <div style="display:flex; flex-direction:column; margin-left:20px; width:35%;
+              border:2px solid #999; padding:10px; border-radius:8px;">
+
+    <!-- Suggested Routes -->
+    <h3 id="routes-title" style="display:none;">Suggested Route </h3><h3 id="sub1-routes-title" style="display:none;">from a non-trained AI model:</h3> <h5 id="sub-routes-title" style="display:none;">The score of the route for various features is:</h5>
+    <div id="routes-display"></div>
+
+    <button id="submit-btn" onclick="New_Random_Route()"
+        style="margin-top:10px; width:150px; align-self:center; display:none;">
+        I do not like this route!<br>Find a different route using the non-trained AI model
+
+    </button>
+    <button id="start-train-btn" onclick="Start_Training()"
+        style="margin-top:10px; width:150px; align-self:center; display:none;">
+        I want to train the model
+
+    </button>
+
+    <!-- Divider -->
+    <hr style="margin:20px 0;">
+
+    <!-- Training Section -->
+    <!-- Training Section -->
+<div id="training-section" style="display:none;">
+  <h3 id="Training-title">Train the AI Model:</h3><h5 id="sub-Training-title">Set how important each feature is to you</h5>
+
+  <table style="width:100%; border-collapse: collapse; margin-bottom:10px;">
+    <tr>
+      <td style="padding:5px;">Safety:</td>
+      <td style="padding:5px;">
+        <input type="range" id="importance-safety" min="0" max="10" value="5" step="1" style="width:80%;">
+        <span id="safety-value"></span>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:5px;">Scenery:</td>
+      <td style="padding:5px;">
+        <input type="range" id="importance-scenery" min="0" max="10" value="5" step="1" style="width:80%;">
+        <span id="scenery-value"></span>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:5px;">Time Efficiency:</td>
+      <td style="padding:5px;">
+        <input type="range" id="importance-time" min="0" max="10" value="5" step="1" style="width:80%;">
+        <span id="time-value"></span>
+      </td>
+    </tr>
+  </table>
+
+  <button id="Training-btn" onclick="trainAI()" style="margin-top:10px; margin-left:80px; width:150px; align-self:center;">
+    Start training
+  </button>
+</div>
+
+
+  </div>
+
+</div>
+
+
+
+
+  <script>
+  // Update displayed value when slider moves
+  document.getElementById('importance-safety').addEventListener('input', function() {
+    document.getElementById('safety-value').textContent = this.value;
+  });
+  document.getElementById('importance-scenery').addEventListener('input', function() {
+    document.getElementById('scenery-value').textContent = this.value;
+  });
+  document.getElementById('importance-time').addEventListener('input', function() {
+    document.getElementById('time-value').textContent = this.value;
+  });
+    // Load JSON file from GitHub (must be raw URL)
+    const url = 'https://raw.githubusercontent.com/ahmadzr8/Test_Datasets/refs/heads/main/sorted_positions_test4.json';
+
+    fetch(url)
+      .then(res => res.json())
+      .then(data => {
+        // Prepare nodes (add random x, y positions and size)
+        const nodes = data.nodes.map(node => ({
+          id: node.id,
+          label: 'City ' + node.id,
+          x: node.x,//Math.random(),
+          y: node.y,//Math.random(),
+          size: 5,
+          color: '#3388cc'
+        }));
+
+        // Prepare edges (ignore extra features)
+        const edges = data.edges.map((edge, i) => ({
+          id: 'e' + i,
+          source: edge.source,
+          target: edge.target,
+          safety: edge.safety,
+          POI: edge.POI,
+          Scenery: edge.Scenery,
+          distance:edge.distance,
+          color: '#999999',
+          size: 3
+        }));
+
+        // Initialize Sigma
+        const s = new sigma({
+          graph: { nodes, edges },
+          container: 'sigma-container',
+          settings: {
+            drawLabels: true,
+            autoRescale: true,
+            sideMargin: 20,    // pushes nodes away from edges
+            minEdgeSize: 3,
+            maxEdgeSize: 3,
+          }
+        });
+
+
+        s.bind('render', function() {
+          // Zoom out slightly to add margin at borders
+          let cam = s.camera;
+          cam.ratio *= 0.98;
+        });
+
+
+        // --- RL structures ---
+        let sourceNode = null;
+        let targetNode = null;
+        let currentRoutes = [];
+
+        let epsilon=0.2; //exploration probability
+        let gamma=0.9; //discount factor
+        let alpha=0.3; //learning rate
+        let learning_iteration=1000;
+
+        // Initialize Q-values for edges
+        let Q = {};
+        edges.forEach(e => {
+          if (!Q[e.source]) Q[e.source] = {};
+          Q[e.source][e.target] = 0; // initial score#
+          if (!Q[e.target]) Q[e.target] = {};
+          Q[e.target][e.source] = 0; // initial score
+        });
+
+
+        s.bind("clickNode", function(e) {
+          const nodeId = e.data.node.id;
+
+          // If source not selected yet
+          if (sourceNode=== null) {
+              sourceNode = nodeId;
+              s.graph.nodes(nodeId).color = "#ff9900";
+              s.refresh();
+              return;
+          }
+
+          // If target not selected yet
+          if (!targetNode && nodeId !== sourceNode) {
+              targetNode = nodeId;
+              s.graph.nodes(nodeId).color = "#ff9900";
+              s.refresh();
+              // Generate initial routes
+              currentRoutes = suggestRoutes(sourceNode, targetNode, 1);
+              displayRoutes(currentRoutes);
+          }
+        });
+
+      // Compute the length of shortest distance between all pairs
+
+      function dijkstra(feature) {
+        const Matrix = {};
+        const adjacency = {};
+        nodes.forEach(node => adjacency[node.id] = []);
+        if (feature==="distance"){
+          edges.forEach(edge => {
+            adjacency[edge.source].push({ node: edge.target, weight: edge.distance });
+            adjacency[edge.target].push({ node: edge.source, weight: edge.distance });
+          });
+        }
+        else if (feature==="safety"){
+          edges.forEach(edge => {
+            adjacency[edge.source].push({ node: edge.target, weight: edge.safety });
+            adjacency[edge.target].push({ node: edge.source, weight: edge.safety });
+          });
+        }
+        else if (feature==="Scenery"){
+          edges.forEach(edge => {
+            adjacency[edge.source].push({ node: edge.target, weight: edge.Scenery });
+            adjacency[edge.target].push({ node: edge.source, weight: edge.Scenery });
+          });
+        }
+
+        nodes.forEach(n => {
+          let source = n.id; // declare source
+
+          const dist = {};
+          const visited = new Set();
+          const pq = new Map();
+
+          nodes.forEach(node => dist[node.id] = Infinity); // renamed inner n
+          dist[source] = 0;
+          pq.set(source, 0);
+
+          while (pq.size > 0) {
+            let u = null;
+            let minDist = Infinity;
+            for (let [node, d] of pq.entries()) {
+              if (d < minDist) { minDist = d; u = node; }
+            }
+            pq.delete(u);
+            visited.add(u);
+
+            adjacency[u].forEach(nei => {
+              if (!visited.has(nei.node)) {
+                const alt = dist[u] + nei.weight;
+                if (alt < dist[nei.node]) {
+                  dist[nei.node] = alt;
+                  pq.set(nei.node, alt);
+                }
+              }
+            });
+          }
+
+          Matrix[source] = dist;
+        })
+      return Matrix;
+      }
+
+      const shortestPathMatrix =dijkstra("distance");
+      const maxSafetyMatrix=dijkstra("safety");
+      const maxSceneryMatrix = dijkstra("Scenery");
+
+
+
+
+
+
+
+
+
+      // Compute route scores based on edge features
+      function computeRouteScore(source,target,route){
+          let total = {safety:0, Scenery:0, distance:0};
+          for(let i=0;i<route.length-1;i++){
+            const edge = edges.find(e =>
+              (e.source===route[i] && e.target===route[i+1]) ||
+              (e.source===route[i+1] && e.target===route[i])
+            );
+            if(edge){
+            // Assume edge has safety, quality, Scenery, distance
+            total.safety += edge.safety || 0;
+            total.Scenery += edge.Scenery || 0;
+            total.distance += edge.distance || 0;
+          }
+        }
+
+      return total;
+    }
+
+    // Choose next node along path
+    function chooseNext(current, visited, epsilon) {
+      // Find all unvisited neighbor edges
+      const neighborEdges = edges
+        .filter(e => e.source === current || e.target === current)
+        .map(e => {
+          const n = e.source === current ? e.target : e.source;
+          return [current, n]; // return the pair (current, n)
+        })
+        .filter(([_, n]) => !visited.includes(n));
+
+      if (neighborEdges.length === 0) return -1;
+
+      // ε-greedy: exploration vs exploitation
+      if (Math.random() < epsilon) {
+        // Explore: random neighbor
+        e=neighborEdges[Math.floor(Math.random() * neighborEdges.length)];
+        return e[1]
+
+      }
+
+      // Exploit: choose neighbor with max Q-value
+      let bestNeighborEdge = neighborEdges[0];
+      let bestQ = -Infinity;
+
+      neighborEdges.forEach(e => {
+        const qValue = Q[current][e[1]];
+        if (qValue > bestQ) {
+          bestQ = qValue;
+          bestNeighborEdge = e;
+        }
+      });
+      return bestNeighborEdge[1];
+    }
+
+    // Suggest N routes
+    function suggestRoutes(source, target, numRoutes = 1) {
+      let routes = [];
+
+      for (let i = 0; i < numRoutes; i++) {
+        let route = [source];
+        let current = source;
+        let visited=[source]
+
+        while (current !== target) {
+          const next = chooseNext(current, visited,epsilon); // uses Q-learning policy
+          visited.push(next)
+          if (next===-1)
+          {
+            route.pop();
+            current=route[route.length - 1];
+          }
+          else
+          {
+            route.push(next);
+            current = next;
+          }
+        }
+        routes.push({ route: route, score: computeRouteScore(source,target,route) });
+      }
+
+      return routes;
+    }
+
+    // Display routes in console (or later add sliders UI)
+    function displayRoutes(routes,show_submit_btn=1){
+      currentRoutes = routes; // store for RL
+      const container = document.getElementById('routes-display');
+      container.innerHTML = ''; // clear previous suggestions
+
+
+      routes.forEach((r, i) => {
+        const score = r.score;
+        time_efficiency=10*(shortestPathMatrix[sourceNode][targetNode]/r.score.distance)
+        safety=10*(maxSafetyMatrix[sourceNode][targetNode]/r.score.safety)
+        Scenery=10*(maxSceneryMatrix[sourceNode][targetNode]/r.score.Scenery)
+
+        // Pretty formatting for 0 decimal places
+        const formattedFeatures = `
+          <table>
+            <tr><td>Safety:</td><td>${safety.toFixed(0)}</td><td>Out of 10</td></tr>
+            <tr><td>Scenery:</td><td>${Scenery.toFixed(0)}</td><td>Out of 10</td></tr>
+            <tr><td>Time Efficiency:</td><td>${time_efficiency.toFixed(0)}</td><td>Out of 10</td></tr>
+          </table>
+        `;
+
+        const routeStr = r.route.join(' → '); // nice arrow format
+
+        // Build the route card
+        const routeDiv = document.createElement('div');
+        routeDiv.style.border = '1px solid #ccc';
+        routeDiv.style.padding = '10px';
+        routeDiv.style.margin = '10px 0';
+        routeDiv.style.display = 'flex';
+        routeDiv.style.justifyContent = 'space-between';
+        routeDiv.style.alignItems = 'center';
+        routeDiv.style.borderRadius = '6px';
+        routeDiv.style.background = '#f9f9f9';
+
+        routeDiv.innerHTML = `
+          <div style="flex-grow: 1;">
+            <strong>Route ${i+1}:</strong> ${routeStr}<br>
+            <span style="font-size: 0.85em; color:#555;">
+              ${formattedFeatures}
+            </span>
+          </div>
+
+        `;
+
+        container.appendChild(routeDiv);
+      });
+
+      routes.forEach((r,i)=>{
+        highlightRoute(r.route, i);
+      });
+
+      document.getElementById('routes-title').style.display = 'block';
+
+      document.getElementById('sub-routes-title').style.display = 'block';
+      if (show_submit_btn===1)
+      {
+        document.getElementById('submit-btn').style.display = 'block';
+        document.getElementById('sub1-routes-title').style.display = 'block';
+      }
+
+
+    }
+
+    function highlightRoute(route, color = "#ff0000") {
+      // Reset all edges to black
+      s.graph.edges().forEach(edge => {
+        edge.color = '#999999'; // black
+      });
+      s.refresh();
+      // Loop over each pair of consecutive nodes
+      for (let i = 0; i < route.length - 1; i++) {
+        const from = route[i];
+        const to = route[i + 1];
+
+        // Find the matching edge in the graph
+        const edge = s.graph.edges().find(e =>
+          (e.source === from && e.target === to) ||
+          (e.source === to && e.target === from)
+        );
+
+        if (edge) {
+          edge.color = "#ff0000"; // directly set color
+        }
+      }
+
+      s.refresh(); // redraw
+    }
+
+    function New_Random_Route(){
+
+      // Suggest new routes
+      document.getElementById('start-train-btn').style.display = 'block';
+      const newRoutes = suggestRoutes(sourceNode, targetNode, 1);
+      displayRoutes(newRoutes);
+    }
+    window.New_Random_Route = New_Random_Route;
+
+    function Start_Training(){
+      document.getElementById('submit-btn').style.display = 'none';
+      document.getElementById('start-train-btn').style.display = 'none';
+      document.getElementById('sub1-routes-title').style.display = 'none';
+
+      document.getElementById("training-section").style.display = "block";
+
+    }
+    window.Start_Training = Start_Training;
+
+    // Choose next node along path
+    function chooseNext_Best(current, visited, epsilon) {
+      // Find all unvisited neighbor edges
+      const neighborEdges = edges
+        .filter(e => e.source === current || e.target === current)
+        .map(e => {
+          const n = e.source === current ? e.target : e.source;
+          return [current, n]; // return the pair (current, n)
+        })
+        .filter(([_, n]) => !visited.includes(n));
+
+
+      if (neighborEdges.length === 0) return -1;
+
+      let bestNeighborEdge = neighborEdges[0];
+      let bestQ = -Infinity;
+
+      neighborEdges.forEach(e => {
+        const qValue = Q[current][e[1]];
+        if (qValue > bestQ) {
+          bestQ = qValue;
+          bestNeighborEdge = e;
+        }
+      });
+      return bestNeighborEdge[1];
+    }
+
+    function find_Best_route(source, target) {
+      let routes = [];
+
+      for (let i = 0; i < 1; i++) {
+        let route = [source];
+        let current = source;
+        let visited=[source]
+
+        while (current !== target) {
+          const next = chooseNext_Best(current, visited,epsilon); // uses Q-learning policy
+          visited.push(next)
+          if (next===-1)
+          {
+            route.pop();
+            current=route[route.length - 1];
+          }
+          else
+          {
+            route.push(next);
+            current = next;
+          }
+        }
+        routes.push({ route: route, score: computeRouteScore(source,target,route) });
+      }
+
+      return routes;
+    }
+
+    // Suggest N routes
+    function suggestRoutes_Training(source, target,factors, numRoutes = 1) {
+      let routes = [];
+
+      for (let i = 0; i < numRoutes; i++) {
+        let route = [source];
+        let current = source;
+        let visited=[source]
+        let sum_safety=0;
+
+        while (current !== target) {
+          const next = chooseNext(current, visited,epsilon); // uses Q-learning policy
+          visited.push(next)
+          if (next===-1)
+          {
+            route.pop();
+            current=route[route.length - 1];
+          }
+          else
+          {
+            const edge = edges.find(e =>
+              (e.source===current && e.target===next) ||
+              (e.source===next && e.target===current)
+            );
+
+          const s_next_next = chooseNext(next,visited, epsilon=-0.2)
+          Q_next=Q[next][s_next_next]
+          if (s_next_next===-1){
+            let minQ = Infinity;
+            let minPair = null;
+
+            for (const source in Q) {
+              for (const target in Q[source]) {
+                if (Q[source][target] < minQ) {
+                  minQ = Q[source][target];
+                  minPair = [source, target];
+                }
+              }
+            }
+            Q_next=minQ
+          }
+
+          reward =-(edge.safety*factors[0])-(edge.Scenery*factors[1])-(edge.distance*factors[2])
+          delta = reward + gamma * Q_next- Q[current][next]
+          Q[current][next] = Q[current][next] + alpha * delta
+
+          route.push(next);
+
+            current = next;
+
+          }
+        }
+        routes.push({ route: route, score: computeRouteScore(source,target,route) });
+      }
+
+      return routes;
+    }
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+async  function trainAI() {
+      let safety = parseFloat(document.getElementById("importance-safety").value);
+      let Scenery = parseFloat(document.getElementById("importance-scenery").value);
+      let timeEfficiency = parseFloat(document.getElementById("importance-time").value);
+      let sum=safety+Scenery+timeEfficiency
+      safety=safety/sum
+      Scenery=Scenery/sum
+      timeEfficiency=timeEfficiency/sum
+
+      edges.forEach(e => {
+          Q[e.source][e.target] = 0; // initial score
+          Q[e.target][e.source] = 0; // initial score
+        });
+      for (let i = 0; i <10000; i++) {
+        Routes=suggestRoutes_Training(sourceNode, targetNode,factors=[safety,Scenery,timeEfficiency]);
+        if (i%10===0){
+          Best_Route=find_Best_route(sourceNode, targetNode);
+          displayRoutes(Best_Route,0);
+          await sleep(1500); // <-- 10ms delay between iterations
+        }
+      }
+
+      Best_Route=find_Best_route(sourceNode, targetNode);
+      displayRoutes(Best_Route,0);
+
+
+    }
+  window.trainAI = trainAI;
+  })
+  .catch(err => console.error('Failed to load graph:', err));
+
+
+
+  </script>
+</body>
+</html>
+
