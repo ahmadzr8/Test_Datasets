@@ -2,5 +2,4 @@ networkx
 matplotlib
 pandas
 IPython
-time
 numpy
