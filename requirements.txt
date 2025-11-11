@@ -1,7 +1,7 @@
 networkx
-matplotlib.pyplot
+matplotlib
 random
 pandas
-IPython.display
+IPython
 time
 numpy
