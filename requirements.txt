@@ -1,6 +1,5 @@
 networkx
 matplotlib
-random
 pandas
 IPython
 time
